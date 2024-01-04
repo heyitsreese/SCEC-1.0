@@ -131,7 +131,144 @@ void FCM(const string& mapName) {
         }
         case 2: {
             system("CLS");
-            cout << "You have chosen Waste Management";
+            cout << "You chose to tackle WASTE MANAGEMENT. Which specific problem would you like to address?\n";
+            cout << "Options:\n";
+            cout << "1. IMPROPER DISPOSAL AND POLLUTION:  Inadequate waste disposal practices can lead to pollution of the camping site and its surroundings. If campers do not "
+                    "adhere to proper waste management guidelines, litter and improperly discarded waste can contaminate the environment, negatively impacting ecosystems, wildlife, and "
+                    "water sources.\n\n"
+                    "2. NON-COMPLIANCE WITH LEAVE NO TRACE PRINCIPLES: The failure of campers to follow strict Leave No Trace principles poses a significant challenge. Leave No "
+                    "Trace principles emphasize minimizing environmental impact by packing out all trash, leaving natural features undisturbed, and using designated waste disposal "
+                    "areas. Non-compliance can result in the degradation of the camping site's natural beauty and ecological balance.\n\n"
+                    "3. LACK OF DESIGNATED WASTE DISPOSAL AREAS: Campers may face challenges in finding or utilizing designated waste disposal areas. The absence of clearly marked "
+                    "and accessible disposal sites can lead to haphazard waste disposal practices. Establishing well-defined and conveniently located waste disposal areas is crucial "
+                    "for encouraging proper waste management and preventing the accumulation of litter in camping sites.\n";
+            cout << ">> Enter choice: ";
+            cin >> choice;
+            switch (choice) {
+                // IMPROPER
+                case 1: {
+                    cout << "IMPROPER DISPOSAL AND POLLUTION: How will you proceed?\n";
+                    cout << "Options:\n";
+                    cout << "1. IMPLEMENT A 'PACK-IN, PACK-OUT' POLICY\n"
+                            "Description: Enforce a strict 'Pack-In, Pack-Out' policy, requiring campers to take all their waste with them when leaving the camping site. Clearly communicate this policy through signage at trailheads, camping zones, and other relevant areas. Provide information on portable waste disposal solutions, such as portable trash bags, to make it convenient for campers to adhere to the policy.\n"
+                            "CONSEQUENCES:\n"
+                            "Positive: The 'Pack-In, Pack-Out' policy promotes personal responsibility, ensuring campers leave no trace and minimize their environmental impact. This reduces the risk of pollution and encourages a culture of self-reliance in waste disposal.\n"
+                            "Negative: Some campers may find it inconvenient or may not be adequately prepared for this approach. Enforcement may be challenging, and some individuals might still neglect the policy.\n";
+                    cout << "2. INTRODUCE RECYCLING STATIONS AND PROPER WASTE BINS\n"
+                            "Description: Install designated recycling stations and waste bins throughout the camping site, clearly marked for different types of waste. Educate campers on proper waste separation and disposal methods, emphasizing the importance of recycling. Regularly empty and maintain these bins to ensure their effectiveness.\n"
+                            "CONSEQUENCES:\n"
+                            "Positive: Providing accessible and well-labeled recycling stations encourages responsible waste disposal and promotes recycling practices. It reduces litter and minimizes the environmental impact of improperly discarded waste.\n"
+                            "Negative: Campers may still mix recyclables with general waste, undermining the effectiveness of recycling efforts. Maintenance and regular emptying of bins may require additional resources.\n";
+                    cout << "3. ORGANIZE CLEAN-UP EVENTS AND INCENTIVES\n"
+                            "Description: Establish periodic clean-up events where campers are encouraged to participate in collecting and properly disposing of litter within the camping site. Introduce incentives such as discounts on future camping permits, camping gear, or recognition for individuals or groups who actively contribute to maintaining a clean environment.\n"
+                            "CONSEQUENCES:\n"
+                            "Positive: Clean-up events create a sense of community responsibility, actively involving campers in maintaining the cleanliness of the camping site. Incentives motivate participation and contribute to a cleaner environment.\n"
+                            "Negative: The success of clean-up events depends on camper participation, and some may not engage actively. Continuous efforts are needed to sustain the momentum and prevent a return to improper waste disposal practices.\n\n";
+                    cout << ">> Enter choice: ";
+                    cin >> choice;
+                }
+                // NON-COMPLIANCE
+                case 2: {
+                    cout << "NON-COMPLIANCE WITH LEAVE NO TRACE PRINCIPLES: How will you proceed?\n";
+                    cout << "Options:\n";
+                    cout << "1. EDUCATIONAL CAMPAIGN AND RANGER PATROLS\n"
+                            "Description: Implement an extensive educational campaign to inform campers about the importance of Leave No Trace principles. Distribute informational materials, conduct workshops, and utilize digital platforms to educate campers on responsible camping practices. Additionally, increase ranger patrols to monitor and guide campers towards proper waste disposal methods.\n"
+                            "CONSEQUENCES:\n"
+                            "Positive: An educated and informed camper base is more likely to adhere to Leave No Trace principles, leading to a reduction in environmental impact. Increased ranger presence acts as a deterrent and ensures immediate guidance for those unaware of proper waste disposal methods.\n"
+                            "Negative: Despite educational efforts, some campers may still neglect responsible practices. The effectiveness of ranger patrols depends on the availability of resources and personnel.\n";
+                    cout << "2. IMPLEMENT FINES FOR NON-COMPLIANCE\n"
+                            "Description: Enforce a system of fines for campers who fail to comply with Leave No Trace principles, specifically related to improper waste disposal. Clearly communicate the fines through signage and educational materials, and assign responsibility to park rangers for monitoring and issuing fines when necessary.\n"
+                            "CONSEQUENCES:\n"
+                            "Positive: The threat of financial penalties can motivate campers to adhere to Leave No Trace principles, leading to improved waste disposal practices. Fines collected can be reinvested into environmental conservation efforts.\n"
+                            "Negative: Some campers may view fines as punitive and may react negatively, potentially creating tension between campers and park authorities. Enforcement may also be challenging in remote or vast camping areas.\n";
+                    cout << "3. COMMUNITY VOLUNTEER PROGRAM\n"
+                            "Description: Establish a community volunteer program where experienced campers or local environmental enthusiasts actively engage with and educate fellow campers about Leave No Trace principles. These volunteers can organize regular clean-up events, provide guidance on waste disposal, and foster a sense of community responsibility.\n"
+                            "CONSEQUENCES:\n"
+                            "Positive: Building a community-driven initiative encourages shared responsibility for the environment, fostering a culture of sustainable camping. Volunteer-led activities can have a positive impact on campers' attitudes towards Leave No Trace principles.\n"
+                            "Negative: The success of the program relies on the availability and willingness of volunteers. Some campers may not respond positively to guidance from fellow campers, and the program's effectiveness may vary depending on community engagement.\n\n";
+                    cout << ">> Enter choice: ";
+                    cin >> choice;
+                }
+                // LACK OF DESIGNATED
+                case 3: {
+                    cout << "LACK OF DESIGNATED WASTE DISPOSAL AREAS: How will you proceed?\n";
+                    cout << "Options:\n";
+                    cout << "1. ESTABLISH CLEAR SIGNAGE FOR WASTE DISPOSAL AREAS\n"
+                            "Description: Install clear and visible signage indicating designated waste disposal areas within the camping site. These signs should be strategically placed at key points, such as trailheads and camping zones, to guide campers to proper disposal sites.\n"
+                            "CONSEQUENCES:\n"
+                            "Positive: Clear signage enhances visibility, making it easier for campers to locate and use designated waste disposal areas. This leads to improved waste management practices and a reduction in litter.\n"
+                            "Negative: Despite signage, some campers may still overlook or disregard the information. This could result in continued improper waste disposal and potential environmental impact.\n";
+                    cout << "2. DEPLOY RANGER PATROLS TO GUIDE CAMPERS\n"
+                            "Description: Deploy ranger patrols within the camping site to actively guide and educate campers on proper waste disposal practices. Rangers can provide real-time assistance, answer questions, and ensure that campers are aware of and utilize designated waste disposal areas.\n"
+                            "CONSEQUENCES:\n"
+                            "Positive: Ranger patrols actively engage with campers, offering immediate guidance on waste disposal. This hands-on approach can lead to increased compliance and a positive shift in camper behavior.\n"
+                            "Negative: Despite ranger efforts, some campers may still neglect proper waste disposal practices. The success of this option relies on the availability of ranger resources and their ability to cover the entire camping area effectively.\n";
+                    cout << "3. INTRODUCE INTERACTIVE EDUCATIONAL WORKSHOPS\n"
+                            "Description: Organize interactive educational workshops within the camping site, focusing on the importance of proper waste disposal. These workshops can include demonstrations, discussions, and hands-on activities to actively involve campers in learning about and practicing responsible waste management.\n"
+                            "CONSEQUENCES:\n"
+                            "Positive: Interactive workshops provide a more engaging learning experience, increasing camper understanding of the significance of proper waste disposal. This can lead to improved compliance and a positive impact on the environment.\n"
+                            "Negative: Interactive workshops provide a more engaging learning experience, increasing camper understanding of the significance of proper waste disposal. This can lead to improved compliance and a positive impact on the environment.\n\n";
+                    cout << ">> Enter choice: ";
+                    cin >> choice;
+                    if (choice == 1) {
+                        cout << "The character opts for the installation of clear signage to address the issue of improper waste disposal. They strategically place these signs at key points like trailheads and camping zones, aiming to guide campers to designated waste disposal areas.\n\n";
+                        cout << "*POSITIVE EFFECT*: Cleaner Camping Site The impact is positive and noticeable. The clear signage enhances visibility, making it easier for campers to locate and utilize designated waste disposal areas. As a result, there is a visible reduction in litter, and campers increasingly adopt improved waste management practices. The camping site begins to regain its natural beauty as the environmental impact diminishes.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Limited Awareness Despite the signage, some campers may still overlook or disregard the information. A portion of campers may continue with improper waste disposal practices, posing a potential risk to the environment. The challenge lies in ensuring that the signage effectively reaches and influences the behavior of all campers, addressing the issue comprehensively.\n\n";
+                        cout << "\"In response to the challenged of some campers still continuing with improper waste disposal caused by limited awareness, How will you proceed?\"\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Organize Educational Campaigns:  Launch extensive educational campaigns to complement the clear signage strategy.\n\n"
+                                "2. Implement Mobile App for Guidance:   Develop a dedicated mobile app that provides real-time guidance on waste disposal within the camping site. Campers can use the app to locate designated disposal areas, receive notifications, and access additional information on responsible waste management.\n\n"
+                                "3. Establish Waste Management Ambassadors:   Recruit and train waste management ambassadors who actively patrol the camping site to engage with campers.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to organize educational campaigns, you successfully combined the power of clear signage with an expansive reach through various media channels. The educational campaigns proved effective in increasing awareness among campers about the designated waste disposal areas. This synergistic approach resulted in a cleaner camping site, showcasing a harmonious balance between environmental education and visual cues.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to implement a mobile app for guidance, you successfully embraced technology to enhance the impact of clear signage. The app provided a convenient and interactive solution, catering to diverse camper preferences. Campers readily adopted the technology, leading to increased adherence to proper waste disposal practices. The camping site now stands as a testament to the successful fusion of traditional signage with innovative digital solutions.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to establish waste management ambassadors alongside clear signage, you introduced a personal touch to waste disposal guidance. These ambassadors, through personalized interactions, provided direct assistance to campers, ensuring a better understanding of waste disposal guidelines. This human-centric approach led to a cleaner camping site, and campers embraced improved waste management practices.";
+                        }
+                    } else if (choice == 2) {
+                        cout << "The character chose to deploy ranger patrols within the camping site to educate campers on proper waste disposal practices. These rangers become the frontline in ensuring campers are aware of designated waste disposal areas and adhere to responsible waste management.\n\n";
+                        cout << "*POSITIVE EFFECT*: Improved Compliance The impact is positive and tangible. Ranger patrols actively engage with campers, offering real-time guidance and support. Campers, appreciating the hands-on assistance, increasingly adopt proper waste disposal practices. This results in a visible reduction of litter and a more environmentally conscious camping community.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Resource Limitations. However, despite the ranger patrols' efforts, some campers may still neglect proper waste disposal practices. The success of this option heavily relies on the availability of ranger resources and their ability to cover the entire camping area effectively. Balancing the demands of patrolling with other ranger responsibilities may pose challenges and limit the overall reach of this initiative.\n\n";
+                        cout << "\"In response to the limitation in resource problems that heavily affects the success of the chosen option, How will you proceed?\"\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Establish Education Centers: Set up designated Camper Education Centers within the camping site where ranger patrols can provide in-depth, personalized education on proper waste disposal practices.\n\n"
+                                "2. Utilize Technological Tools: Equip ranger patrols with technological tools such as mobile apps or tablets that provide real-time information on waste disposal guidelines and designated areas.\n\n"
+                                "3. Collaborate with Local Schools and Groups: Form partnerships with local schools or community groups to organize educational programs on responsible waste disposal\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to establish education centers, you created dedicated hubs for disseminating information on responsible waste management. These centers became focal points for engaging campers, offering hands-on demonstrations, workshops, and informative materials. The comprehensive approach led to increased awareness and understanding, resulting in a significant reduction in litter and a cleaner camping site.";
+                        } else if (ans == 2) {
+                            cout << "Your decision to rely on technological tools had mixed results. While the mobile app proved effective for many campers, some faced challenges in adopting or using the technology. This digital-focused approach left a portion of the camping community without access to crucial waste disposal guidance. The final challenge remains unmet, and the destiny of Ethereal Springs hangs in the balance.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to collaborate with local schools and groups, you tapped into existing community networks to spread awareness about responsible waste management. Workshops and educational initiatives conducted through schools and community groups reached a diverse audience. This inclusive approach fostered a shared sense of responsibility, resulting in improved waste disposal practices and a cleaner camping site.";
+                        }
+                    } else if (choice == 3) {
+                        cout << "The character chose the path of interactive educational workshops. Collaborating with environmental educators and local experts, they organize engaging sessions within the camping site to enlighten campers about responsible waste management.";
+                        cout << "*POSITIVE EFFECT*: Campers actively participate in the interactive workshops, gaining a deeper understanding of the consequences of improper waste disposal. Equipped with this knowledge, they become advocates for responsible practices, actively promoting a cleaner and healthier camping environment.\n\n";
+                        cout << "*NEGATIVE EFFECT*: However, not all campers attend the workshops, and the message may not reach everyone. Some may continue with old habits due to lack of awareness or disinterest. The challenge lies in ensuring that the educational initiatives reach a broader audience to maximize their positive impact on waste disposal practices within the camping site.\n\n";
+                        cout << "\"In response to the campers' indifference, How will you proceed?\"";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Create Engaging Digital Content: Develop interactive and engaging digital content, such as online workshops, videos, or an educational app, to complement the on-site workshops.\n\n"
+                                "2. Establish Community Ambassadors:  Identify and empower passionate and responsible campers from within the community to act as ambassadors.\n\n"
+                                "3. Incentive-based Participation:  Incentives aim to motivate campers to attend workshops and actively engage in responsible waste management practices.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "Your decision to rely solely on digital content did not prove optimal. Some campers, particularly those with limited access to digital devices or the internet, were left without access to crucial educational materials. This digital-focused strategy overlooked the diverse needs of the camping community, leading to a missed opportunity to engage a portion of the camper population. The final challenge remains unmet, and the fate of Ethereal Springs hangs in the balance.";
+                        } else if (ans == 2) {
+                            cout << "Your decision to rely on community ambassadors had limited success. While some campers responded positively to peer-led initiatives, others remained indifferent or resistant to guidance from their peers. The effectiveness of this approach was contingent on the ambassadors' ability to influence their peers, and in some cases, this influence was not sufficient to create widespread change. The final challenge remains unmet, and the fate of Ethereal Springs hangs in the balance.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to encourage participation through incentives, you successfully motivated campers to actively engage in the educational workshops. The promise of rewards, such as discounts on future camping permits or exclusive access, led to increased attendance and enthusiastic participation. This heightened engagement translated into a more informed and responsible camping community, contributing to a cleaner and healthier camping environment.";
+                        }
+                    } else {
+                        cout << "Invalid answer.";
+                    }
+                }
+            }
         }
         case 3: {
             system("CLS");
@@ -205,6 +342,7 @@ void FCM(const string& mapName) {
                         "of Ethereal Springs hangs in the balance.";
                     }
                 } else if (choice == 2) {
+                    system("CLS");
                     cout << "The Character opted for an EDUCATIONAL CAMPAIGN within the game. Utilizing your in-game character, you embark on a journey to raise awareness about the "
                     "crucial importance of water quality.\n\n";
                     cout << "*POSITIVE EFFECT*: Seeds of Awareness\n"
@@ -234,6 +372,7 @@ void FCM(const string& mapName) {
                         "By choosing this path, you've successfully passed the final challenge. The ecosystem and fellow players alike commend your dedication and foresight in bringing about positive change. Well done!";
                     }
                     } else if (choice == 3) {
+                    system("CLS");
                         cout << "The Character chose to introduce ECO-FRIENDLY CLEANING ALTERNATIVES for campers. Biodegradable soaps and detergents are distributed, promoting responsible cleaning practices.\n\n"
                         "*POSITIVE EFFECT*: Campsite Renewal\n"
                         " Campers embrace the eco-friendly alternatives, resulting in a significant reduction in harmful residues. The introduction of biodegradable cleaning products contributes to the potential restoration of the altered microbial balance. The once-affected water sources begin to show signs of renewal, with clarity returning to the once-clouded springs.\n\n"
@@ -262,6 +401,7 @@ void FCM(const string& mapName) {
                 }
                 // EROSION
                 case 2: {
+                    system("CLS");
                     cout << "EROSION AND RUNOFF: How will you proceed?\n";
                     cout << "Option 1:\n";
                     cout << "1. INTRODUCING REFORESTATION PROJECTS\n"
@@ -282,6 +422,7 @@ void FCM(const string& mapName) {
                     cout << ">> Enter answer: ";
                     cin >> choice;
                     if (choice == 1) {
+                    system("CLS");
                         cout << "The Character chose to INTRODUCING REFORESTATION PROJECTS. This strategic move aims to protect vulnerable areas by implementing planting initiatives that restore and safeguard the essential vegetation.\n\n";
                         cout << "Positive: The positive impact of the reforestation projects is significant. The restoration of the landscape begins as newly planted trees take root, preventing further erosion and runoff. The mountain environment, once under threat, starts to rejuvenate, bringing back its natural beauty.\n\n";
                         cout << "Negative: However, not all campers are welcoming this change. Resistance brews among those who oppose the alterations to their familiar surroundings. Potential conflicts arise as opposing viewpoints clash, creating tension within the camping community.\n\n";
@@ -302,6 +443,7 @@ void FCM(const string& mapName) {
                             cout << "Your choice to rely on a Greenwashing Campaign did not prove to be the most effective strategy. While it may have initially garnered positive reception based on perceived aesthetic improvements, the deceptive nature of the campaign is counterproductive. The lack of genuine environmental impact has led to disappointment, mistrust, and conflicts among campers. Regrettably, this outcome means the final challenge remains unmet. While you've reached up to this point, consider your options carefully. The fate of Mount Pulag's water sources still hangs in the balance, and the journey is not yet complete.";
                         }
                     } else if (choice == 2) {
+                    system("CLS");
                         cout << "The Character chose CREATING INFORMATIONAL MATERIALS. Flyers and signage have been strategically placed around the campsite to inform visitors about the critical importance of preserving the natural landscape.\n\n";
                         cout << "Positive: The positive impact of this choice is substantial. Increased awareness among campers gradually leads to a change in behavior. As campers become more informed about the environmental significance, they contribute to the restoration of the landscape by adopting more sustainable practices.\n\n";
                         cout << "Negative: Despite the informational materials, some campers may choose to ignore or disregard the provided information. This resistance to change means that the impact on the environment persists, and not all campers are aligned with the conservation efforts.\n\n";
@@ -321,6 +463,7 @@ void FCM(const string& mapName) {
                             cout << "Your choice to introduce Token Eco-Friendly Initiatives, while initially appearing beneficial, fell short in addressing the root causes of erosion and runoff. These initiatives created a false sense of accomplishment among campers without fostering the broader behavioral changes and understanding needed for lasting impact. Regrettably, this outcome means the final challenge remains unmet. While you've reached up to this point, consider your options carefully. The fate of Mount Pulag's water sources still hangs in the balance, and the journey is not yet complete.";
                         }
                     } else if (choice == 3) {
+                    system("CLS");
                         cout << "The Character chose to COLLABORATING WITH LOCAL AUTHORITIES. This strategic move involves working with local officials to establish and enforce strict regulations on visitors, waste disposal, and camping practices. Penalties are enforced for those who violate these regulations.";
                         cout << "Positive: The collaboration with local authorities results in an immediate reduction in human impact on the sensitive ecosystem. Strict regulations contribute to the potential restoration of the landscape, addressing the issues of erosion and runoff more effectively.\n\n";
                         cout << "Negative: Despite the positive outcomes, there is a backlash from the tourism industry and potential conflicts with non-compliant campers who resist the new regulations. The delicate balance between conservation efforts and economic interests becomes a point of contention.\n\n";
@@ -343,6 +486,7 @@ void FCM(const string& mapName) {
                 }
                 // COMMUNITY
                 case 3: {
+                    system("CLS");
                     cout << "COMMUNITY CONCERNS: How will you proceed?\n";
                     cout << "Option: \n";
                     cout << "1. HOSTING CULTURAL EVENTS\n";
