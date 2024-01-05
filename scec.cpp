@@ -127,7 +127,6 @@ void FCM(const string& mapName) {
         case 1: {
             system("CLS");
             cout << "You have chosen Soil Erosion and Trail Impact\n";
-
         }
         case 2: {
             system("CLS");
@@ -147,6 +146,7 @@ void FCM(const string& mapName) {
             switch (choice) {
                 // IMPROPER
                 case 1: {
+                    system("CLS");
                     cout << "IMPROPER DISPOSAL AND POLLUTION: How will you proceed?\n";
                     cout << "Options:\n";
                     cout << "1. IMPLEMENT A 'PACK-IN, PACK-OUT' POLICY\n"
@@ -169,6 +169,7 @@ void FCM(const string& mapName) {
                 }
                 // NON-COMPLIANCE
                 case 2: {
+                    system("CLS");
                     cout << "NON-COMPLIANCE WITH LEAVE NO TRACE PRINCIPLES: How will you proceed?\n";
                     cout << "Options:\n";
                     cout << "1. EDUCATIONAL CAMPAIGN AND RANGER PATROLS\n"
@@ -188,9 +189,86 @@ void FCM(const string& mapName) {
                             "Negative: The success of the program relies on the availability and willingness of volunteers. Some campers may not respond positively to guidance from fellow campers, and the program's effectiveness may vary depending on community engagement.\n\n";
                     cout << ">> Enter choice: ";
                     cin >> choice;
+                    if (choice == 1) {
+                        system("CLS");
+                        cout << "The character, opting for an educational campaign and increased ranger patrols to address improper waste disposal in the camping game, takes a proactive approach to "
+                        "raise awareness and enforce responsible camping practices.\n\n";
+                        cout << "*POSITIVE EFFECT*: Informed and Responsible Campers The impact is positive, with campers becoming more informed about Leave No Trace principles through workshops and "
+                        "informational materials. The increased presence of rangers ensures immediate guidance, and campers start adopting responsible waste disposal methods. Over time, the camping site "
+                        "witnesses a noticeable reduction in environmental impact, as campers actively contribute to preserving its natural beauty.\n";
+                        cout << "*NEGATIVE EFFECT*: Some Campers Resist Despite the educational efforts and ranger patrols, a portion of campers may still neglect responsible practices. It becomes "
+                        "apparent that changing long-standing habits is a gradual process. The effectiveness of ranger patrols is also contingent on available resources and personnel, leading to "
+                        "occasional lapses in monitoring. The character faces the challenge of continuous education and resource management to ensure a sustained positive impact on waste disposal "
+                        "practices within the camping site.\n\n";
+                        cout << "\"In  response to the negative effects of this option, How will you proceed?\"\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Incentive-based Reward System:  Campers who consistently follow Leave No Trace principles and properly dispose of their waste could receive rewards such as discounts on future camping permits, exclusive access to certain areas, or recognition through a public acknowledgment system.\n\n"
+                                "2. Mobile Application for Education and Monitoring:  Develop a mobile application that serves as an educational tool and allows campers to log their waste disposal activities.\n\n"
+                                "3. Partnership with Outdoor Recreation Organizations:  Collaborate with outdoor recreation organizations to expand educational efforts and promote responsible camping practices.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your ingenious strategy to implement an incentive-based reward system has worked wonders. Campers were motivated by the prospect of discounts on future reservations, recognition on the leaderboard, and exclusive access to certain areas. The positive reinforcement created a ripple effect, fostering a sense of camaraderie and responsibility. As a result, compliance with the 'Pack-In, Pack-Out' policy soared, and Ethereal Springs is now a shining example of how incentives can inspire positive environmental behavior.";
+                        } else if (ans == 2) {
+                            cout << "Your decision to rely on technological tools had mixed results. While the mobile app proved effective for many campers, some faced challenges in adopting or using the technology. This digital-focused approach left a portion of the camping community without access to crucial waste disposal guidance. The final challenge remains unmet, and the destiny of Ethereal Springs hangs in the balance.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic partnership with outdoor recreation organizations has brought about a transformative change in Ethereal Springs. Collaborative efforts led to widespread educational programs, well-organized clean-up events, and enhanced waste disposal facilities. The camping community, influenced by the expertise and passion of these organizations, embraced the 'Pack-In, Pack-Out' policy. Ethereal Springs now thrives as a harmonious blend of nature preservation and community engagement, exemplifying the positive impact of collaboration.";
+                        }
+                    } else if (choice == 2) {
+                        system("CLS");
+                        cout << "The character, opting for a strict enforcement approach, implements fines for non-compliance with Leave No Trace principles. Collaborating with local authorities and "
+                        "park rangers, they roll out a comprehensive system to regulate camper behavior and waste disposal practices within the camping site.\n\n";
+                        cout << "*POSITIVE EFFECT*: Improved Compliance The impact is immediate and positive. The threat of fines serves as a strong deterrent, compelling campers to adhere to Leave No "
+                        "Trace principles diligently. As a result, improper waste disposal practices diminish significantly, leading to a cleaner and more environmentally sustainable camping area.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Tension and Backlash However, not all campers welcome the imposition of fines. Some view it as punitive and express resistance, leading to tensions "
+                        "between campers and enforcement authorities. Additionally, concerns are raised about the economic impact on the local tourism industry, as fines may discourage some visitors. "
+                        "The character faces the challenge of managing this backlash while emphasizing the long-term environmental benefits of the enforcement measures. Striking a balance between "
+                        "conservation goals and addressing economic concerns becomes a complex task that requires careful navigation.\n\n";
+                        cout << "\"In  response to the negative effects of this option\"\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Community Engagement and Collaboration:  Foster open communication and collaboration between enforcement authorities, local businesses, and the camping community. Host town hall meetings, workshops, and forums to address concerns and gather feedback.\n\n"
+                                "2. Economic Incentives for Environmental Stewardship:  Implement a system of economic incentives for campers and local businesses that actively contribute to environmental stewardship. This could include discounts for responsible campers, certification programs for eco-friendly businesses, or grants for local initiatives promoting sustainable tourism.\n\n"
+                                "3. Educational Campaign with Alternatives to Fines:  Shift the focus from punitive measures to a comprehensive educational campaign that highlights the importance of Leave No Trace principles and the long-term benefits of conservation.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your commitment to fostering a sense of community engagement and collaboration has paid off. By establishing a volunteer program, you successfully tapped into the collective enthusiasm of campers and local environmental enthusiasts. These dedicated volunteers actively engaged with fellow campers, organizing clean-up events and providing guidance on responsible waste disposal. The camping community rallied together, creating a positive and sustainable environment at Ethereal Springs. Your strategic approach not only addressed the challenge but also left a lasting legacy of environmental stewardship.";
+                        } else if (ans == 2) {
+                            cout << "Your decision to implement economic incentives faced challenges in execution. While some campers were enticed by the rewards, others remained indifferent or resistant to the idea. The effectiveness of the incentive program varied, and the desired widespread compliance was not achieved. As a result, certain areas of the camping site continue to grapple with the negative consequences of non-compliance. The fate of Ethereal Springs hangs in the balance, underscoring the delicate balance between economic incentives and the diverse motivations of the camping community.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to organize an educational campaign, you successfully combined the power of clear signage with an expansive reach through various media channels. The educational campaigns proved effective in increasing awareness among campers about the 'Pack-In, Pack-Out' policy and provided alternatives to fines. Campers embraced the responsibility, making informed choices that aligned with Leave No Trace principles. The camping site now exudes a sense of environmental consciousness, with campers actively participating in preserving the natural beauty of Ethereal Springs.";
+                        }
+                    } else if (choice == 3) {
+                        system("CLS");
+                        cout << "The character, recognizing the importance of community involvement, opts for the Community Volunteer Program. They work to establish a network of enthusiastic volunteers "
+                        "who actively engage with fellow campers, spreading awareness about Leave No Trace principles and organizing clean-up events to maintain the camping site's environmental integrity.\n\n";
+                        cout << "*POSITIVE EFFECT*: Community-driven Stewardship The impact is positive and community-driven. The volunteer program gains momentum, and campers actively participate in educational "
+                        "initiatives and clean-up events. A sense of shared responsibility flourishes, fostering a sustainable camping culture. Campers become more mindful of their impact, leading to improved waste "
+                        "disposal practices and a positive transformation of the camping site.\n";
+                        cout << "*NEGATIVE EFFECT*: Volunteer Reliability Challenges arise as the success of the program relies on the availability and willingness of volunteers. Some campers, despite the community-driven "
+                        "approach, may still neglect responsible practices. The program's effectiveness may vary depending on the level of engagement within the community, and sustaining long-term commitment from volunteers "
+                        "becomes a key challenge for the character to address in their quest for a cleaner camping environment.\n\n";
+                        cout << "\"In  response to the negative effects of this option\"\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Incentive Program for Volunteers:  Implement an incentive program to encourage volunteer participation and reliability. Provide recognition, certificates, or small rewards for volunteers "
+                                "who consistently contribute to the community-driven initiative.\n\n"
+                                "2. Diversify Volunteer Engagement:  Broaden the types of volunteer opportunities within the camping community. Instead of focusing solely on waste management, create diverse roles such as trail "
+                                "maintenance, educational outreach, and event coordination.\n\n"
+                                "3. Collaborate with Local Organizations:  Forge partnerships with local environmental organizations or schools to bring in additional support for the community-driven initiative.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "Despite your best intentions, the incentive program for volunteers faced some challenges. While a portion of campers eagerly embraced the opportunity to earn rewards, others remained indifferent to the program or found it insufficiently motivating. This resulted in a fragmented volunteer effort, with only a subset of campers actively participating in waste disposal initiatives. The effectiveness of the 'Pack-In, Pack-Out' policy is hindered, and conflicts with non-participating campers persist, leaving Ethereal Springs in a precarious environmental state.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your decision to diversify volunteer engagement strategies has paid off brilliantly. By recognizing and accommodating varying preferences and skill sets, you created a dynamic team of volunteers with a shared commitment to environmental stewardship. The camping site now benefits from a range of initiatives, from educational workshops to hands-on cleanup events. The diverse approaches have fostered a sense of community responsibility, resulting in widespread compliance with the 'Pack-In, Pack-Out' policy and a visibly improved Ethereal Springs.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic collaboration with local organizations has proven to be a game-changer. The combined efforts of the camping community and external entities have significantly enhanced the success of the 'Pack-In, Pack-Out' policy. Local organizations brought valuable resources, expertise, and additional manpower to the table, creating a powerful alliance for environmental conservation. Ethereal Springs now stands as a shining example of successful collaboration, with improved waste management practices and a thriving ecosystem.";
+                        }
+                    }
                 }
                 // LACK OF DESIGNATED
                 case 3: {
+                    system("CLS");
                     cout << "LACK OF DESIGNATED WASTE DISPOSAL AREAS: How will you proceed?\n";
                     cout << "Options:\n";
                     cout << "1. ESTABLISH CLEAR SIGNAGE FOR WASTE DISPOSAL AREAS\n"
@@ -211,6 +289,7 @@ void FCM(const string& mapName) {
                     cout << ">> Enter choice: ";
                     cin >> choice;
                     if (choice == 1) {
+                        system("CLS");
                         cout << "The character opts for the installation of clear signage to address the issue of improper waste disposal. They strategically place these signs at key points like trailheads and camping zones, aiming to guide campers to designated waste disposal areas.\n\n";
                         cout << "*POSITIVE EFFECT*: Cleaner Camping Site The impact is positive and noticeable. The clear signage enhances visibility, making it easier for campers to locate and utilize designated waste disposal areas. As a result, there is a visible reduction in litter, and campers increasingly adopt improved waste management practices. The camping site begins to regain its natural beauty as the environmental impact diminishes.\n\n";
                         cout << "*NEGATIVE EFFECT*: Limited Awareness Despite the signage, some campers may still overlook or disregard the information. A portion of campers may continue with improper waste disposal practices, posing a potential risk to the environment. The challenge lies in ensuring that the signage effectively reaches and influences the behavior of all campers, addressing the issue comprehensively.\n\n";
@@ -229,6 +308,7 @@ void FCM(const string& mapName) {
                             cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to establish waste management ambassadors alongside clear signage, you introduced a personal touch to waste disposal guidance. These ambassadors, through personalized interactions, provided direct assistance to campers, ensuring a better understanding of waste disposal guidelines. This human-centric approach led to a cleaner camping site, and campers embraced improved waste management practices.";
                         }
                     } else if (choice == 2) {
+                        system("CLS");
                         cout << "The character chose to deploy ranger patrols within the camping site to educate campers on proper waste disposal practices. These rangers become the frontline in ensuring campers are aware of designated waste disposal areas and adhere to responsible waste management.\n\n";
                         cout << "*POSITIVE EFFECT*: Improved Compliance The impact is positive and tangible. Ranger patrols actively engage with campers, offering real-time guidance and support. Campers, appreciating the hands-on assistance, increasingly adopt proper waste disposal practices. This results in a visible reduction of litter and a more environmentally conscious camping community.\n\n";
                         cout << "*NEGATIVE EFFECT*: Resource Limitations. However, despite the ranger patrols' efforts, some campers may still neglect proper waste disposal practices. The success of this option heavily relies on the availability of ranger resources and their ability to cover the entire camping area effectively. Balancing the demands of patrolling with other ranger responsibilities may pose challenges and limit the overall reach of this initiative.\n\n";
@@ -247,6 +327,7 @@ void FCM(const string& mapName) {
                             cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to collaborate with local schools and groups, you tapped into existing community networks to spread awareness about responsible waste management. Workshops and educational initiatives conducted through schools and community groups reached a diverse audience. This inclusive approach fostered a shared sense of responsibility, resulting in improved waste disposal practices and a cleaner camping site.";
                         }
                     } else if (choice == 3) {
+                        system("CLS");
                         cout << "The character chose the path of interactive educational workshops. Collaborating with environmental educators and local experts, they organize engaging sessions within the camping site to enlighten campers about responsible waste management.";
                         cout << "*POSITIVE EFFECT*: Campers actively participate in the interactive workshops, gaining a deeper understanding of the consequences of improper waste disposal. Equipped with this knowledge, they become advocates for responsible practices, actively promoting a cleaner and healthier camping environment.\n\n";
                         cout << "*NEGATIVE EFFECT*: However, not all campers attend the workshops, and the message may not reach everyone. Some may continue with old habits due to lack of awareness or disinterest. The challenge lies in ensuring that the educational initiatives reach a broader audience to maximize their positive impact on waste disposal practices within the camping site.\n\n";
@@ -898,9 +979,8 @@ void AC1() {
                     cout << "\r" << charName << ": Building shelter..." << flush;
                     sleep(1);
                     cout << "\r" << "[The adventurer successfully builds a makeshift shelter, using the resources available in the cove.]\n\n";
-
-                    // END 50%
-
+                    cout << "Azur: Azur: You've demonstrated resilience and adaptability. Congratulations, adventurer! You have successfully conquered Anawangin Cove. Your journey here is truly an unforgettable adventure.\n\n";
+                    cout << charName << "Thank you, Azur! This journey has been remarkable, and I'm grateful for the challenges that made it even more memorable.";
                 }
             }
 
@@ -915,6 +995,171 @@ void AC1() {
             }
         }
     } while (tries < 5);
+}
+void SI1() {
+    int ans;
+    system("CLS");
+    cout << "(Climate change, Muddy Trails during Rainy Season, Limited Elevation and Variety)\n\n";
+            sleep(2);
+    cout << "Welcome to the enchanting shores of Siargao Island, where the waves whisper tales of adventure and the lush landscapes beckon the intrepid souls. "
+    "To our fellow hikers and campers, may the trails be your guide, the stars your canopy, and the ocean breeze your companion. May your journey be filled with "
+    "discovery and the warmth of newfound friendships. Embrace the wild beauty of Siargao, let the island spirit ignite your sense of wonder, and may each step bring "
+    "you closer to nature's embrace.\n\n";
+            sleep(2);
+    cout << "Azur: Embark on the trail, and at the 250m mark, your first challenge awaits you. Follow the path to face the initial obstacle in your adventure. The "
+    "journey unfolds with each step, introducing trials that test your resilience and determination.\n\n";
+            sleep(2);
+    cout << charName << ": I understand now Azur.Thank you for providing me with this information. I am prepared to successfully overcome that challenge.\n\n";
+            sleep(2);
+    cout << "The adventurer follows the instruction and as they reach the 250m mark, the trail opens up to a clearing adorned with vibrant flora and the distant "
+    "melody of cascading water. Before them lies the first challenge.\n\n";
+            sleep(2);
+
+    // CHALLENGE
+    cout << "*** CHALLENGE: MUDDY TRAILS ***\n"
+            "(During the rainy season, Siargao Island transforms into a lush paradise, but it also presents a unique challenge - muddy trails. The recent downpour has "
+            "turned parts of the path into slippery, mucky terrain. Your task is to navigate through this muddy obstacle with finesse and determination.)\n\n";
+            sleep(2);
+    cout << "Your options are as follows:\n";
+            "1. *Forge Ahead*: Embrace the mud, navigate carefully through the slippery terrain, and press forward. This option may test your balance and agility, but it leads "
+            "directly to the next stage of your adventure.\n\n"
+            "\tAnswer: This option leads directly to the next stage of your adventure, testing your balance and agility.\n\n"
+            "2. *Seek an Alternative Route*: Scout the surroundings for a less muddy path. Keep in mind that deviating from the main trail might introduce new challenges or take "
+            "longer to reach your destination.\n\n"
+            "\tAnswer: Deviating from the main trail might introduce new challenges or take longer to reach your destination.\n\n"
+            "3. *Team Up*: If you spot fellow adventurers struggling with the mud, consider joining forces. Teamwork might provide the strength and support needed to overcome this muddy hurdle together.\n\n"
+            "\tAnswer: Teamwork might provide the strength and support needed to overcome this muddy hurdle together.\n\n";
+            sleep(2);
+    cout << "What path will you take, intrepid explorer? The muddy trails await your decision, and the island's spirit watches as you embark on this journey of discovery.\n\n";
+    cout << "Enter answer: ";
+    cin >> ans;
+
+    string resultMessage;
+    if (ans == 1) {
+        resultMessage = charName + ": I choose to embrace the mud and navigate carefully through the slippery terrain. With determination, I step into the muck, ensuring each movement is "
+        "calculated to maintain balance. This option requires a steady focus and agility as I press forward, anticipating the next stage of my adventure.";
+    } else if (ans == 2) {
+        resultMessage = charName + ": I choose to scout the surroundings for a less muddy path. I carefully examine the terrain, searching for a route that might present fewer challenges. "
+        "Deviating from the main trail could introduce new obstacles or prolong the journey, but I prioritize the potential ease of travel.";
+    } else if (ans == 3) {
+        resultMessage = charName + ": I choose to consider joining forces. Recognizing the strength in unity, I approach them, proposing a collaborative effort to overcome the muddy hurdle "
+        "together. Teamwork becomes a valuable resource, offering shared support and camaraderie on this challenging stretch of the trail.";
+    } else {
+        cout << "Invalid answer.";
+        exit(1);
+    }
+
+    system("CLS");
+    cout << "Azur: Well done, adventurer! You've successfully conquered the muddy trails, proving your resilience and determination. With this challenge behind you, you may now proceed along "
+    "the trail. Best of luck on the next leg of your journey!\n\n";
+    sleep(2);
+    cout << charName << ": Phew, that was a close call. I didn't anticipate that my decision would be spot-on for the challenge. Now, I can fully savor this breathtaking view. Excitement builds "
+    "as I look forward to the upcoming thrilling challenges.\n\n";
+    sleep(2);
+    cout << "*With a sigh of relief, you navigate the muddy trails with finesse, successfully overcoming the challenge. As you emerge onto a drier section of the trail, the landscape opens up to "
+    "reveal a breathtaking view of Siargao Island's beauty. The vibrant flora, the distant sound of cascading water, and the refreshing island breeze create a sensory symphony that envelops you.*\n\n";
+    sleep(2);
+    cout << "Azur: Well done, courageous adventurer! Your choice proved to be perfect for the challenge, allowing you to enjoy this stunning view. Take a moment to bask in the natural beauty surrounding "
+    "you, for your journey on Siargao Island is far from over.\n\n";
+    sleep(2);
+    cout << charName << ": I express my gratitude, Azur, for leading me through the challenges.\n\n";
+}
+void SI2() {
+    char ans;
+    cout << "“The onset of darkness approaches.”\n\n";
+    sleep(2);
+    cout << charName << ": Uh-oh, night is falling. Time to pitch my tent for the evening.\n\n";
+    sleep(2);
+    cout << "“The player has successfully set up their tent and lit it for the night.”\n\n";
+    sleep(2);
+    cout << "“While " << charName << " was sleeping, a couple, thrilled to watch the sunrise, noticed the tent where" << charName << " was resting.”\n\n";
+    sleep(2);
+    cout << "Athena: Oh, I believe there's someone inside.\n\n";
+    sleep(2);
+    cout << "Zeke: Shall we wake them up? (Y/N): \n\n";
+    cin >> ans;
+    sleep(2);
+    if (toupper(ans) == 'Y') {
+        cout << "Athena & Zeke: Wakey-wakey~ rise and shine, and greet the shining sunrise; it's on the way!\n\n";
+    sleep(2);
+        cout << "Zeke: Good morning dear, sorry to interrupt your sleep but we just wanted to ask if you wanna watch sunrise with us.\n\n";
+    sleep(2);
+        cout << "“ "<<  charName << " awakens from a deep slumber and unzips the tent, joining the others outside to greet the morning.”\n\n";
+    sleep(2);
+        cout << charName << ": Good morning! Oh, it's already morning. Thanks for waking me up. I wanted to watch the sunrise too, but I was so sleepy that I didn't realize "
+        "it was morning already. By the way, I'm " << charName << endl;
+    sleep(2);
+        cout << "Athena: Hello, dear. Nice to meet you. Sorry for the late introduction. I'm Athena, and beside me is my husband, Zeke. We are on our honeymoon trip right now.\n\n";
+    sleep(2);
+        cout << "“The sunrise arrived, and they enjoyed it until the couple had to depart, leaving " << charName << " alone because they needed to return to the foot of the mountain before noon for their next flight.”";
+    sleep(2);
+        cout << charName << ": It was a pleasure meeting you, Athena and Zeke. Congratulations on your honeymoon! I hope you have a fantastic journey ahead. Safe travels down the mountain, and thank you for sharing this beautiful sunrise with me.\n\n";
+    sleep(2);
+        cout << "As the couple departs, " << charName << " is left alone to contemplate the serene morning scene. The sky is painted in hues of orange and pink as the sun continues its ascent.\n\n";
+    sleep(2);
+        cout << charName << ": What a magical way to start the day. I'm glad I got to share this sunrise with Athena and Zeke. Now, let's pack up and continue my own adventure.\n\n";
+    sleep(2);
+        cout << "(" << charName << "proceeds to pack up their tent and belongings. The mountain landscape is breathtaking, with towering peaks and lush greenery.)\n\n";
+    sleep(2);
+        cout << charName << ": (thinking to themselves) I wonder what awaits me on this journey. The world is full of wonders, and each day brings new surprises. Maybe I'll encounter more friendly faces along the way.\n\n";
+    sleep(2);
+        cout << "(As you continue along the trail, the path leads you to a serene lagoon nestled amidst lush greenery. Crystal-clear waters invite you for a refreshing swim, but the tranquility is interrupted by the next challenge.)\n\n";
+    sleep(2);
+
+    // CHALLENGE
+    int choice;
+
+    cout << "*** CHALLENGE ***\n";
+    cout << "Azur: Behold the Lagoon Leap Challenge! To proceed, you must navigate a series of stepping stones across the lagoon. Each stone requires precision and balance. Choose your path wisely, for a misstep may plunge you into the cool waters below.\n\n";
+    cout << "Your options are as follows:\n"
+            "As the adventurer contemplates the Lagoon Leap Challenge, the options unfold before them.\n\n";
+            "1. *Steady Stride*: In this approach, the adventurer decides to adopt a focused and measured strategy. With unwavering concentration, they navigate the lagoon by "
+            "carefully placing each foot on the stones, ensuring a stable progression from one to the next. This method prioritizes balance and precision, offering a more cautious "
+            "but calculated advancement.\n\n"
+            "2. *Leap of Faith*: Opting for a more daring strategy, the adventurer decides to channel their adventurous spirit. They take a bold leap from one stone to the next, "
+            "embracing the challenge with a courageous attitude. This approach is marked by a willingness to take risks, relying on agility and confidence to navigate the lagoon "
+            "in a more dynamic and unconventional manner.\n\n" 
+            "3. *Observe and Plan*: Choosing a strategic and thoughtful path, the adventurer takes a moment to observe the pattern of the stepping stones. By carefully planning "
+            "their route, they aim to navigate the lagoon with precision and forethought. This approach prioritizes analysis and strategy, allowing the adventurer to make well-informed "
+            "decisions based on the observed pattern before taking each step.\n\n";
+    cout << "With their decision made, the adventurer prepares to face the Lagoon Leap Challenge, knowing that the outcome depends on the approach they have chosen. The anticipation builds as they step forward to conquer this next exciting obstacle on their journey through Siargao Island.\n\n";
+    cout << "Enter answer: ";
+    cin >> choice;
+    string resultMessage;
+    if (choice == 1) {
+        resultMessage = charName + ": I decide to adopt a focused and measured strategy. With unwavering concentration, I navigate the lagoon by carefully placing each foot "
+        "on the stones, ensuring a stable progression from one to the next. This method prioritizes balance and precision, offering a more cautious but calculated advancement.\n\n";
+    } else if (choice == 2) {
+        resultMessage = charName + ": Opting for a more daring strategy, I decide to channel my adventurous spirit. I take a bold leap from one stone to the next, embracing "
+        "the challenge with a courageous attitude. This approach is marked by my willingness to take risks, relying on agility and confidence to navigate the lagoon in a more "
+        "dynamic and unconventional manner.\n\n";
+    } else if (choice == 3) {
+        resultMessage = charName + ": Choosing a strategic and thoughtful path, I take a moment to observe the pattern of the stepping stones. By carefully planning my route, "
+        "I aim to navigate the lagoon with precision and forethought. This approach prioritizes analysis and strategy, allowing me to make well-informed decisions based on the "
+        "observed pattern before taking each step.\n\n";
+    }
+    sleep(2);
+    cout << charName << ": I must carefully consider my options to successfully navigate this challenge.\n\n";
+    sleep(2);
+    cout << charName << ": In contemplating the Lagoon Leap Challenge, I weigh my options carefully.\n\n";
+    sleep(2);
+    cout << resultMessage;
+    sleep(2);
+    cout << charName << ": With my decision made, I prepare to face the Lagoon Leap Challenge, knowing that the outcome depends on the approach I have chosen. The anticipation "
+    "builds as I step forward to conquer this next exciting obstacle on my journey through Siargao Island\n\n";
+    sleep(2);
+    cout << charName << ": Fortunately, I was able to navigate through the challenge successfully by thinking wisely and approaching it with careful consideration.\n\n";
+    sleep(2);
+    cout << "Azur: Congratulations on overcoming the challenge! Best of luck as you face the next one, player.\n\n";
+    sleep(2);
+    system("CLS");
+    cout << "Upon reaching the summit of the island, the adventurer was mesmerized by its breathtaking beauty. The panoramic view stretched far and wide, showcasing a tapestry of "
+    "lush landscapes and azure waters. Overwhelmed with excitement, he couldn't wait to share the incredible adventure he had experienced to the world. The journey to the top had "
+    "been filled with challenges, but the reward of this awe-inspiring sight made it all worthwhile. With a heart full of gratitude, he prepared to document and share his "
+    "unforgettable experience with the world.\n\n";
+    sleep(2);
+    cout << "Little did he know, after reaching the summit, there comes the final challenge that awaits.\n\n";
+    }
 }
 int main() {
     int selectedChar, selectedMap;
@@ -1030,10 +1275,12 @@ int main() {
                 cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 if (toupper(resp) == 'Y') {
                     cout << "\n\n";
-                    // MP1();
-                    // MP2();
-                    // MP3();
+                    MP1();
+                    MP2();
+                    MP3();
                     FCM(mapName);
+
+                    cout << "Azur: Adventurer, your resilience and adaptability have been truly impressive. Congratulations on successfully conquering Siargao Island! Your journey here is an unforgettable adventure.\n";
                 }
                 else {
                 cout << charName << ": I guess I'll try to find some later, it'll for sure tire me quickly if I bring twigs this early on my hike.\n";
@@ -1042,6 +1289,15 @@ int main() {
         }
     } else if (mapName == "Anawangin Cove") {
         AC1();
+        FCM(mapName);
+
+        cout << "Azur: Adventurer, your resilience and adaptability have been truly impressive. Congratulations on successfully conquering Siargao Island! Your journey here is an unforgettable adventure.\n";
+    } else if (mapName == "Siargao Island") {
+        SI1();
+        SI2();
+        FCM(mapName);
+
+        cout << "Azur: Adventurer, your resilience and adaptability have been truly impressive. Congratulations on successfully conquering Siargao Island! Your journey here is an unforgettable adventure.\n";
     }
 
     cout << "\nPress Enter to exit...";
