@@ -126,7 +126,134 @@ void FCM(const string& mapName) {
         int choice;
         case 1: {
             system("CLS");
-            cout << "You have chosen Soil Erosion and Trail Impact\n";
+            cout << "You chose to tackle SOIL EROSION AND TRAIL IMPACT. Which specific problem would you like to address?\n";
+            cout << "Options:\n";
+            cout << "1. TRAIL STABILIZATION AND RESTORATION PROGRAM:  Initiate a comprehensive trail stabilization and restoration program aimed at "
+                    "addressing soil erosion and trail impact. Implement erosion control measures such as strategically placed barriers, trail resurfacing, "
+                    "and the use of eco-friendly materials. Engage volunteers or employ skilled personnel to restore damaged areas, replant native vegetation, "
+                    "and implement sustainable trail management practices.\n\n"
+                    "2. VISITOR EDUCATION AND LEAVE NO TRACE INITIATIVES: Launch an extensive education campaign to inform visitors about the importance of "
+                    "minimizing their impact on the environment through the adoption of Leave No Trace principles. Provide clear signage at trailheads and "
+                    "camping areas, educating campers about staying on designated trails, avoiding fragile ecosystems, and the overall importance of preserving "
+                    "the natural landscape. Additionally, incorporate Leave No Trace principles into camping regulations and provide resources for responsible "
+                    "outdoor practices.\n\n"
+                    "3. TRAIL ROTATION AND SITE REST DAYS: Implement a system of trail rotation and designated rest days for camping sites. By periodically closing "
+                    "certain trails or camping areas, the land can recover and regenerate. This rotational approach allows ecosystems to rejuvenate, reducing the "
+                    "impact of continuous foot traffic. Campers can be informed in advance about trail rotations and encouraged to explore alternative routes during "
+                    "closure periods.\n";
+            cout << ">> Enter choice: ";
+            cin >> choice;
+            switch (choice) {
+                // TRAIL STABILI
+                case 1: {
+                    cout << "TRAIL STABILIZATION AND RESTORATION PROGRAM: How will you proceed?\n";
+                    cout << "Options:\n";
+                    cout << "1. CORPORATE SPONSORSHIP AND VOLUNTEER CAMPAIGN\n"
+                            "Description:  Forge partnerships with environmentally conscious corporations willing to sponsor the trail stabilization and "
+                            "restoration program. Utilize these sponsorships to fund the procurement of eco-friendly materials, equipment, and skilled "
+                            "personnel. Launch a volunteer campaign to engage the community and outdoor enthusiasts in hands-on trail restoration activities. "
+                            "Leverage the corporate sponsors' resources to organize workshops on sustainable trail management practices, ensuring a well-informed "
+                            "and active volunteer base.\n"
+                            "CONSEQUENCES:\n"
+                            "*POSITIVE EFFECT*: The involvement of corporate sponsors ensures financial support, enabling the implementation of a robust trail "
+                            "stabilization and restoration program. Engaging volunteers fosters a sense of community responsibility, creating a positive impact "
+                            "on the camping site. The program benefits from both financial resources and manpower, resulting in effective and sustainable trail "
+                            "management.\n"
+                            "*NEGATIVE EFFECT*: Coordination with corporate sponsors and volunteers requires careful planning, and the program's success depends "
+                            "on their continued support. Balancing sponsorship interests and volunteer availability may pose challenges.\n";
+                    cout << "2. USER FEES FOR TRAIL MAINTENANCE FUND\n"
+                            "Description: Introduce a minimal user fee for campers accessing the trails, with the funds earmarked specifically for trail stabilization "
+                            "and restoration efforts. Clearly communicate the purpose of the fee to campers, emphasizing the direct contribution to maintaining and "
+                            "preserving the trails. Implement a transparent system to track and allocate these funds for erosion control measures, trail resurfacing, "
+                            "and the employment of skilled personnel for restoration projects.\n"
+                            "CONSEQUENCES:\n"
+                            "*POSITIVE EFFECT*: The user fee system generates a dedicated fund for trail maintenance, ensuring a sustainable source of revenue. This financial "
+                            "support enables the implementation of effective erosion control measures and trail restoration projects, preserving the ecological balance. Campers "
+                            "contribute directly to the well-being of the trails they enjoy, fostering a sense of ownership and responsibility.\n"
+                            "*NEGATIVE EFFECT*: Some campers may resist the introduction of user fees, especially if they perceive the value provided does not match the cost. "
+                            "Clear communication and transparency are essential to mitigate potential backlash.\n";
+                    cout << "3. EDUCATIONAL PARTNERSHIPS AND WORKSHOPS\n"
+                            "Description: Collaborate with environmental organizations, educational institutions, and outdoor enthusiasts to conduct educational workshops on "
+                            "sustainable trail management practices. These workshops can cover topics such as erosion control, barrier placement, and the use of eco-friendly "
+                            "materials. Establish partnerships to bring in experts who can share their knowledge and experience. Encourage campers to participate voluntarily "
+                            "in these workshops to enhance their understanding of the importance of trail preservation.\n"
+                            "CONSEQUENCES:\n"
+                            "*POSITIVE EFFECT*: Educational partnerships and workshops create a well-informed camper community, leading to increased awareness and adherence to "
+                            "sustainable trail management practices. Campers become active participants in the preservation process, implementing erosion control measures and "
+                            "trail restoration techniques. The program benefits from a knowledgeable and engaged community, promoting a lasting culture of responsible trail use.\n"
+                            "*NEGATIVE EFFECT*: The success of this option relies on the willingness of campers to attend workshops voluntarily. Ensuring the availability of experts "
+                            "and coordinating workshop schedules may pose logistical challenges.\n\n";
+                    cout << ">> Enter choice: ";
+                    cin >> choice;
+                    if (choice == 1) {
+                        cout << "The character, boldly embracing the strategy of Corporate Sponsorship and Volunteer Campaign, successfully forges partnerships with environmentally conscious "
+                                "corporations. With their financial support, the trail stabilization and restoration program takes off, procuring eco-friendly materials, equipment, and skilled personnel. "
+                                "The launch of a volunteer campaign resonates with the community and outdoor enthusiasts, creating a positive ripple effect on the camping site.\n\n";
+                        cout << "*POSITIVE EFFECT*: The involvement of corporate sponsors ensures a steady stream of financial resources, empowering the implementation of a robust trail stabilization and restoration program. Engaging volunteers fosters a sense of community responsibility, and the hands-on restoration activities leave a lasting impact on the camping site. Campers actively participate in workshops on sustainable trail management practices, gaining a deeper understanding of their role in preserving the environment. The camping site undergoes a transformative change, showcasing the harmony between the community and the natural landscape.\n\n";
+                        cout << "*NEGATIVE EFFECT*: However, coordinating with corporate sponsors and volunteers requires meticulous planning. The program's success is intricately tied to their continued support, demanding a delicate balance between sponsorship interests and volunteer availability. Challenges may arise in maintaining this equilibrium, and the character must navigate potential hurdles to sustain the positive momentum. Nevertheless, the commitment of the community and corporate partners remains a beacon of hope, promising a brighter future for the camping site and its ecological well-being.\n\n";
+                        cout << "In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Diversification of Corporate Partnerships: Expand the network of corporate partnerships beyond environmental organizations. Reach out to companies from diverse sectors with a shared commitment to sustainability.\n\n"
+                                "2. Strengthening Volunteer Engagement Programs: Enhance volunteer engagement programs to ensure a consistent and enthusiastic participation rate. Develop initiatives such as recognition programs, exclusive events, or skill-building workshops to motivate and retain volunteers.\n\n"
+                                "3. Contingency Planning and Flexible Adaptation: Enhance volunteer engagement programs to ensure a consistent and enthusiastic participation rate. Develop initiatives such as recognition programs, exclusive events, or skill-building workshops to motivate and retain volunteers.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "Your decision to diversify corporate partnerships had mixed results. While some organizations enthusiastically supported the cause, others had conflicting priorities or expectations. This diversity in support led to inconsistencies in the implementation of initiatives, leaving gaps in the overall effectiveness of the environmental programs. The final challenge remains partially addressed, and the camping site faces ongoing challenges due to the uneven support from corporate partners.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By focusing on strengthening volunteer engagement programs, you've mobilized a dedicated group of individuals committed to preserving Ethereal Springs. The volunteers played a crucial role in educating fellow campers, organizing clean-up events, and fostering a sense of community responsibility. The camping site now flourishes as a testament to the positive impact of community-driven initiatives.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has led to success in the final challenge. By implementing contingency planning and flexible adaptation, you navigated unforeseen challenges with finesse. Your proactive approach allowed for quick adjustments in response to changing circumstances. As a result, the camping site not only overcame initial hurdles but also demonstrated resilience and adaptability in maintaining the 'Pack-In, Pack-Out' policy. Ethereal Springs stands as a model of effective contingency planning and flexible adaptation.";
+                        }
+                    } else if (choice == 2) {
+                        cout << "The character, opting for the 'User Fees for Trail Maintenance Fund,' takes a strategic approach to address the challenges of soil erosion and trail impact. By "
+                                "introducing a minimal user fee for campers accessing the trails, they establish a dedicated fund specifically for trail stabilization and restoration efforts. The character "
+                                "communicates the purpose of the fee clearly, emphasizing the direct contribution to maintaining and preserving the trails. A transparent system is implemented to track and "
+                                "allocate these funds for erosion control measures, trail resurfacing, and the employment of skilled personnel for restoration projects.\n\n";
+                        cout << "*POSITIVE EFFECT*: The implementation of user fees proves to be a game-changer, generating a dedicated fund for trail maintenance. This sustainable source of revenue empowers "
+                                "the successful implementation of effective erosion control measures and trail restoration projects. The camping site undergoes positive transformations, with well-maintained trails "
+                                "preserving the ecological balance. Campers directly contribute to the well-being of the trails they enjoy, fostering a sense of ownership and responsibility.\n\n";
+                        cout << "*NEGATIVE EFFECT*: However, not all campers embrace the introduction of user fees. Some perceive the cost as disproportionate to the perceived value, leading to resistance. Clear "
+                                "communication and transparency become crucial to mitigate potential backlash and address concerns. The character faces the challenge of ensuring widespread compliance, maintaining camper "
+                                "satisfaction, and navigating potential conflicts arising from resistance to the user fee system. Balancing the initial inconvenience with the long-term benefits becomes a critical aspect "
+                                "of navigating this financial approach to trail preservation.\n\n";
+                        cout << "In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Value-Based Fee Structure: Introduce a value-based fee structure that clearly communicates the direct correlation between the user fees and the tangible benefits they bring to campers.\n\n"
+                                "2. Tailored Membership Program: Introduce a tiered membership program that offers additional benefits and privileges to those willing to pay user fees. Clearly communicate the enhanced experiences and exclusive perks, such as priority access to popular trails, guided tours, or special events.\n\n"
+                                "3. Voluntary Donation System: Implement a voluntary donation system where campers are encouraged but not obligated to contribute funds for trail preservation. Clearly communicate the importance of these donations in maintaining and improving the camping site.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your innovative approach of implementing a value-based fee structure has revolutionized the camping experience at Ethereal Springs. Campers now have a tangible incentive to adhere to the 'Pack-In, Pack-Out' policy, as the value-based fees directly link environmental responsibility to the cost of camping. This strategic move not only ensures widespread compliance but also generates additional funds that can be reinvested into maintaining and preserving the pristine natural beauty of Ethereal Springs. Your foresight in aligning economic incentives with environmental stewardship has made Ethereal Springs a beacon of sustainable camping.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. The introduction of a Tailored Membership Program has transformed the camping landscape at Ethereal Springs. Campers now enjoy personalized benefits that cater to their specific needs and preferences. This tailored approach not only promotes the 'Pack-In, Pack-Out' policy but also fosters a sense of community and belonging among campers. The Membership Program has become a symbol of collective responsibility, with campers actively participating in preserving the camping environment. Ethereal Springs stands as a testament to the success of combining environmental stewardship with a personalized camping experience.";
+                        } else if (ans == 3) {
+                            cout << "Unfortunately, the implementation of the Voluntary Donation System did not yield the expected results. While some campers willingly contributed, a significant portion of the camping community opted out of making donations. The voluntary nature of the system led to inconsistent financial support for environmental conservation efforts. The challenges in securing necessary funds have left Ethereal Springs struggling to maintain the delicate balance between responsible camping and preserving the natural beauty of the site. The destiny of Ethereal Springs remains uncertain, with the effectiveness of the voluntary donation system hanging in the balance.";
+                        }
+                    } else if (choice == 3) {
+                        cout << "The character, opting for Educational Partnerships and Workshops, takes a proactive approach to address soil erosion and trail impact. Collaborating with environmental organizations and educational institutions, they organize workshops on sustainable trail management practices. Outdoor enthusiasts willingly participate, enhancing their understanding of the importance of trail preservation, erosion control, and the use of eco-friendly materials.\n\n";
+                        cout << "*POSITIVE EFFECT*: The impact is substantial as campers enthusiastically participate in the educational workshops. Armed with knowledge, they become active stewards of the trails, implementing erosion control measures and engaging in trail restoration efforts. The camping site undergoes a positive transformation, with campers actively contributing to sustainable trail management. A sense of camaraderie develops among the camper community, fostering a lasting culture of responsible trail use.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Despite the positive outcomes, not all campers willingly attend the workshops, posing a challenge to achieving widespread awareness. Ensuring the availability of experts and coordinating workshop schedules presents logistical hurdles. The success of the program hinges on overcoming the initial reluctance and encouraging broader participation to maximize its impact. The character faces the ongoing challenge of motivating all campers to voluntarily engage in educational initiatives for the long-term benefit of the camping site and its trails.\n\n";
+                        cout << "In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Incentive-Based Workshop Participation Program: Introduce a system that rewards campers for attending educational workshops. Offer incentives such as exclusive access to certain camping areas, discounts on future reservations, or recognition for their commitment to environmental education.\n\n"
+                                "2. Interactive Digital Learning Platforms: Develop interactive digital learning platforms that allow campers to access educational content at their convenience.\n\n"
+                                "3. Campground Ambassador Program: Establish a Campground Ambassador Program where experienced and passionate campers volunteer to serve as ambassadors for environmental education.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By implementing the Incentive-Based Workshop Participation Program, you successfully engaged campers in educational workshops, creating a sense of community responsibility. The allure of incentives motivated campers to actively participate, fostering a positive attitude towards the 'Pack-In, Pack-Out' policy. This innovative approach not only addressed initial resistance but also created a supportive camping environment with campers embracing their role as stewards of Ethereal Springs.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your foresight in adopting Interactive Digital Learning Platforms has proven successful. The digital approach reached a wide audience, effectively communicating the importance of the 'Pack-In, Pack-Out' policy. Campers embraced the convenience of digital resources, leading to increased awareness and compliance. The integration of technology transformed Ethereal Springs into a modern, eco-conscious camping destination where campers seamlessly adopted responsible waste disposal practices.";
+                        } else if (ans == 3) {
+                            cout << "Your decision to rely on the Campground Ambassador Program had mixed results. While some campers appreciated the personalized approach, others found the interactions intrusive or unwelcome. The effectiveness of the program varied, with conflicts arising between ambassadors and resistant campers. The destiny of Ethereal Springs remains uncertain, with pockets of non-compliance persisting despite the ambassadorial efforts.";
+                        }
+                    } else {
+                        cout << "Invalid answer.";
+                    }
+                }
+            }
         }
         case 2: {
             system("CLS");
@@ -166,6 +293,72 @@ void FCM(const string& mapName) {
                             "Negative: The success of clean-up events depends on camper participation, and some may not engage actively. Continuous efforts are needed to sustain the momentum and prevent a return to improper waste disposal practices.\n\n";
                     cout << ">> Enter choice: ";
                     cin >> choice;
+                    if (choice == 1) {
+                        cout << "The character, opting for the 'Pack-In, Pack-Out' policy, takes a firm stance on personal responsibility to combat improper waste disposal. Collaborating with local "
+                                "authorities, they roll out this stringent policy, aiming to instill a sense of self-reliance among campers.\n\n";
+                        cout << "*POSITIVE EFFECT*: Environmentally Conscious Campers The impact is notable as campers quickly adapt to the 'Pack-In, Pack-Out' policy. Personal responsibility becomes "
+                                "ingrained in their camping practices, leading to a significant reduction in litter and environmental pollution. The camping site undergoes a positive transformation as a result "
+                                "of campers actively taking responsibility for their waste.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Initial Inconvenience and Resistance However, not all campers are immediately on board with the policy. Some find it inconvenient, and a few may not be "
+                                "adequately prepared with portable waste disposal solutions. Enforcement becomes challenging, and a small fraction of campers may resist the changes, resulting in conflicts with enforcement "
+                                "authorities. The character faces the challenge of ensuring widespread compliance and addressing concerns to solidify the success of the 'Pack-In, Pack-Out' policy. Balancing the initial "
+                                "inconvenience with the long-term environmental benefits becomes a critical aspect of navigating this regulatory approach.\n\n";
+                        cout << "In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Comprehensive Education Campaign:  Launch an extensive education campaign to inform campers about the reasons behind the 'Pack-In, Pack-Out' policy and its long-term environmental benefits.\n\n"
+                                "2. Distribution of Portable Waste Solutions:  Provide campers with accessible and affordable portable waste disposal solutions, such as biodegradable bags or compact waste containers. Distribute these solutions at key entry points or during the reservation process to ensure campers are adequately prepared for the 'Pack-In, Pack-Out' policy.\n\n"
+                                "3. Incentive Program for Compliance:   Implement an incentive program to reward campers who consistently comply with the 'Pack-In, Pack-Out' policy. Incentives could include discounts on future camping reservations, recognition on a leaderboard, or exclusive access to certain camping areas\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "Regrettably, despite your best efforts in the educational campaign, some campers remained resistant to the 'Pack-In, Pack-Out' policy. The initial inconvenience was challenging to overcome for a fraction of campers who struggled to see the long-term environmental benefits. Conflicts with enforcement authorities persisted, highlighting the difficulty in changing entrenched attitudes. The fate of Ethereal Springs remains uncertain as resistance hampers the widespread compliance needed for the policy's success.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your decision to provide campers with portable waste disposal solutions has proven to be a game-changer. The distribution of these solutions at key entry points and during reservations effectively addressed the issue of campers being unprepared for the 'Pack-In, Pack-Out' policy. This proactive measure significantly reduced the inconvenience associated with the policy and resulted in a visibly cleaner camping site. Campers embraced the provided solutions, showcasing a positive shift towards responsible waste disposal practices.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your implementation of an incentive program for compliance has yielded remarkable results. Campers, motivated by discounts on future reservations and the allure of recognition, enthusiastically embraced the 'Pack-In, Pack-Out' policy. The camping site transformed into a model of responsible waste disposal, with campers actively participating in the incentive program. The positive reinforcement not only achieved widespread compliance but also fostered a sense of camaraderie among the camping community.";
+                        }
+                    } else if (choice == 2) {
+                        cout << "The character, recognizing the urgency of addressing improper waste disposal in the camping game, opts for the installation of recycling stations and proper waste bins. "
+                                "Collaborating with local environmental organizations, they strategically place these bins throughout the camping site, accompanied by informative signage on responsible waste "
+                                "disposal.\n\n";
+                        cout << "*POSITIVE EFFECT*: Cleaner and Greener Environment The impact is notable and positive. Campers, now equipped with convenient recycling stations, actively participate in proper waste disposal. The camping site sees a visible reduction in litter, and the emphasis on recycling fosters a culture of environmental responsibility.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Challenges in Implementation However, challenges arise in the form of some campers still mixing recyclables with general waste. Despite educational efforts, ingrained habits and lack of attention contribute to this issue. Regular maintenance of bins becomes crucial, requiring additional resources to ensure their effectiveness.\n\n";
+                        cout << "In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Color-Coded Bin System:  Implement a color-coded bin system where different colors represent various types of waste (e.g., general waste, recyclables, compostables). Provide clear and concise instructions on the bins, and ensure that the colors are easily distinguishable.\n\n"
+                                "2. Waste Disposal Attendants :  Assign waste disposal attendants or volunteers to key waste disposal areas within the camping site. These attendants can actively guide campers, answer questions, and ensure that recyclables are properly separated from general waste.\n\n"
+                                "3. Incentive-Based Proper Waste Disposal :  Campers who consistently adhere to the waste separation guidelines and demonstrate responsible behavior could receive incentives such as discounts on future camping fees, special access to certain amenities, or recognition within the camping community.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your implementation of a color-coded bin system revolutionized waste disposal at Ethereal Springs. Campers quickly adapted to the intuitive system, making it easy for them to sort and dispose of their waste correctly. The vibrant bins not only enhanced the visual appeal of the camping site but also significantly reduced contamination in designated disposal areas. This strategic move not only addressed the initial inconvenience but also contributed to a cleaner and more environmentally friendly camping environment.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your decision to deploy waste disposal attendants had a transformative impact on the camping experience at Ethereal Springs. The presence of attentive attendants helped guide campers to designated waste disposal areas, ensuring proper sorting and disposal. This human touch not only addressed the initial inconvenience but also created a sense of community responsibility.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By implementing an incentive-based proper waste disposal system, you successfully motivated campers to embrace the 'Pack-In, Pack-Out' policy. The allure of discounts on future reservations and exclusive access to certain areas created a positive competition among campers. This innovative approach not only addressed the initial inconvenience but also fostered a culture of responsible waste disposal. The camping site now stands as a testament to the success of your incentive program, with campers actively participating in maintaining its pristine beauty.";
+                        }
+                    } else if (choice == 3) {
+                        cout << "The character, recognizing the need for a proactive approach to address improper waste disposal in the camping game, opts for organizing clean-up events and "
+                            "introducing incentives. Collaborating with enthusiastic campers, they initiate periodic clean-up events aimed at fostering a sense of community responsibility.\n\n";
+                        cout << "*POSITIVE EFFECT*: Cleaner Camping Environment The impact is highly positive. Campers enthusiastically participate in clean-up events, actively collecting and disposing of litter within the camping site. The sense of community responsibility grows, leading to a visibly cleaner and more sustainable camping environment. Incentives such as discounts on future camping permits, camping gear, or public recognition further motivate campers, ensuring a high level of engagement.\n";
+                        cout << "*NEGATIVE EFFECT*: Sustainable Efforts Required However, the success of clean-up events relies on continuous efforts to sustain the momentum. While some campers actively participate, others may not engage as actively, and there's a need for ongoing initiatives to prevent a return to improper waste disposal practices. Balancing the frequency of events and keeping the incentive structure attractive becomes crucial for the long-term success of the campaign.\n\n";
+                        cout << "In  response to the negative effects of this option.";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Reward System for Consistent Participation:  Create a point-based system where campers earn points for each clean-up event attended or for demonstrating responsible camping practices. These points can be redeemed for discounts on future camping fees, outdoor gear, or other relevant rewards.\n\n"
+                                "2. Educational Campaigns on Sustainable Camping:  Utilize various communication channels, such as campsite signage, online platforms, and informational materials, to continually reinforce the importance of responsible waste disposal.\n\n"
+                                "3. Camping Site Ambassador Program:  Establish a Camping Site Ambassador Program where experienced and passionate campers volunteer as ambassadors to promote sustainable practices.\n\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your ingenious strategy of implementing a reward system has yielded outstanding results in the final challenge. By offering incentives for consistent participation in the 'Pack-In, Pack-Out' policy, you successfully motivated campers to embrace responsible waste disposal practices. The camping site now stands as a testament to your ability to inspire positive behavioral change, with campers eagerly participating to earn rewards. Ethereal Springs thrives as a model of sustainable camping, thanks to your strategic brilliance.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to organize educational campaigns, you successfully combined the power of clear signage with an expansive reach through various media channels. The educational campaigns proved effective in increasing awareness among campers about the designated waste disposal areas. This synergistic approach resulted in a cleaner camping site, showcasing a harmonious balance between environmental education and visual cues. Ethereal Springs now stands as a beacon of sustainable camping practices, thanks to your commitment to enlightening the camper community.";
+                        } else if (ans == 3) {
+                            cout << "Unfortunately, your decision to rely on the Camping Site Ambassador Program encountered unforeseen challenges. While some ambassadors passionately embraced their role, others faced difficulties in effectively conveying the importance of responsible waste disposal. The program's impact was inconsistent, leaving gaps in camper education and compliance. As the final challenge concludes, Ethereal Springs remains divided, with varying levels of commitment to the 'Pack-In, Pack-Out' policy and the overall goal of sustainable camping.";
+                        }
+                        } else {
+                            cout << "Invalid answer.";
+                        }
                 }
                 // NON-COMPLIANCE
                 case 2: {
