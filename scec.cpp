@@ -183,6 +183,9 @@ void FCM(const string& mapName) {
                             "trail restoration techniques. The program benefits from a knowledgeable and engaged community, promoting a lasting culture of responsible trail use.\n"
                             "*NEGATIVE EFFECT*: The success of this option relies on the willingness of campers to attend workshops voluntarily. Ensuring the availability of experts "
                             "and coordinating workshop schedules may pose logistical challenges.\n\n";
+                            cout << "Environmental Awareness Workshops (Philippines)\n\n";
+                            cout << "1. Environmental Awareness Training - https://www.theknowledgeacademy.com/ph/courses/health-and-safety-in-the-workplace/environmental-awareness-training/\n\n";
+                            cout << "2. Environmental Training Institute - http://www.eci.com.ph/index.php";
                     cout << ">> Enter choice: ";
                     cin >> choice;
                     if (choice == 1) {
@@ -253,6 +256,167 @@ void FCM(const string& mapName) {
                         cout << "Invalid answer.";
                     }
                 }
+                // VISITOR EDUCATION
+                case 2: {
+                    cout << "VISITOR EDUCATION AND LEAVE NO TRACE INITIATIVES\n";
+                    cout << "Options:\n";
+                    cout << "1. ENVIRONMENTAL AWARENESS WORKSHOPS\n"
+                            "Description:  Organize regular environmental awareness workshops at the camping site. These workshops will cover Leave No Trace principles, emphasizing the importance of responsible outdoor practices. Experienced guides and environmental experts can conduct hands-on sessions, providing practical tips on minimizing impact. Integrate interactive elements, such as guided nature walks and demonstrations on proper waste disposal techniques, to engage campers actively.\n"
+                            "CONSEQUENCES:\n"
+                            "*POSITIVE EFFECT*: Environmental awareness workshops empower campers with knowledge and practical skills, fostering a deeper understanding of Leave No Trace principles. By incorporating hands-on experiences, campers are more likely to internalize responsible outdoor practices, leading to reduced environmental impact.\n"
+                            "*NEGATIVE EFFECT*: Despite the workshops, some campers may still resist adopting new practices. The effectiveness of this option relies on the attendance and engagement of campers in the workshops, which could be influenced by factors such as weather or other recreational activities.\n\n"
+                            "Environmental Awareness Workshops (Philippines)\n"
+                            "1. Environmental Awareness Training - https://www.theknowledgeacademy.com/ph/courses/health-and-safety-in-the-workplace/environmental-awareness-training/\n"
+                            "2. Environmental Training Institute - http://www.eci.com.ph/index.php\n";
+                    cout << "2.  INTERACTIVE MOBILE APPLICATION\n"
+                            "Description:  Develop an interactive mobile application specifically designed for campers. The app will provide essential information about Leave No Trace principles, camping regulations, and responsible outdoor practices. It can include features such as augmented reality to showcase fragile ecosystems, interactive quizzes, and real-time notifications about the 'Pack-In, Pack-Out' policy. Promote the app through various channels, and ensure it is easily accessible to all campers.\n"
+                            "CONSEQUENCES:\n"
+                            "*POSTIVE EFFECT*: The mobile application offers a modern and accessible way to educate campers on Leave No Trace principles. The interactive features make learning engaging, and real-time notifications serve as reminders, enhancing the likelihood of compliance. The app's convenience promotes widespread adoption, leading to a reduction in environmental impact.\n"
+                            "*NEGATIVE EFFECT*: Some campers may face challenges in adopting or using the technology, particularly if they have limited access to smartphones or prefer traditional forms of information dissemination.\n";
+                    cout << "3.  CAMPER ORIENTATION UPON ARRIVAL\n"
+                            "Description:  Implement a mandatory camper orientation session upon arrival at the camping site. During this session, park rangers or designated personnel will provide comprehensive information about Leave No Trace principles, camping regulations, and responsible outdoor practices. Distribute printed materials summarizing the key points, and include a map highlighting designated trails and fragile ecosystems. Emphasize the importance of adherence to these principles for the overall well-being of the environment.\n"
+                            "CONSEQUENCES:\n"
+                            "*POSITIVE EFFECT*: Camper orientation sessions ensure that all visitors receive firsthand information about Leave No Trace principles, reducing the likelihood of misunderstandings. Distributing printed materials and maps serves as a tangible reminder, and direct communication enhances the effectiveness of the educational campaign. The personal touch of an orientation session fosters a sense of responsibility among campers.\n"
+                            "*NEGATIVE EFFECT*: Despite the orientation, some campers may still neglect the provided information. The success of this option relies on the cooperation of all campers during the orientation and their subsequent commitment to responsible outdoor practices.\n\n";
+                    cout << ">> Enter choice: ";
+                    cin >> choice;
+                    if (choice == 1) {
+                        cout << "The character, opting for the 'Environmental Awareness Workshops,' takes a proactive approach to combat soil erosion and trail impact. By organizing regular environmental awareness workshops at the camping site, they aim to educate campers on the importance of responsible outdoor practices, emphasizing Leave No Trace principles. Experienced guides and environmental experts lead hands-on sessions, providing practical tips on minimizing impact and engaging campers in interactive activities like guided nature walks and waste disposal demonstrations.\n\n";
+                        cout << "*POSITIVE EFFECT*: The impact is profound as campers enthusiastically embrace the knowledge gained from the environmental awareness workshops. Equipped with a deeper understanding of Leave No Trace principles, campers actively integrate responsible outdoor practices into their routines. The camping site experiences a positive shift, with reduced soil erosion, trail impact, and a heightened sense of environmental consciousness among campers.\n\n";
+                        cout << "*NEGATIVE EFFECT*: However, not all campers immediately adopt the newly acquired practices. Some campers, despite attending the workshops, may resist the changes, leading to continued wear and tear on trails and potential environmental impact. The character faces the challenge of addressing this resistance and ensuring that the valuable knowledge imparted during the workshops translates into tangible actions. Balancing the initial resistance with the long-term benefits of a more responsible and environmentally conscious camper community becomes a critical aspect of navigating this educational approach. The character must find effective ways to encourage widespread compliance and address concerns to solidify the success of the environmental awareness workshops.\n\n";
+                        cout << "In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Ongoing Engagement Through Digital Platforms:  Establish and maintain a digital platform, such as a dedicated website or social media group, to facilitate ongoing engagement with campers who attended the environmental awareness workshops.\n"
+                                "2. Incentive-Based Recognition Program:  Implement an incentive-based recognition program for campers who consistently demonstrate responsible camping practices. Develop a tiered system where campers receive recognition and rewards based on their level of commitment to sustainable camping.\n"
+                                "3. Personalized Follow-up and Support:  Implement a personalized follow-up system where campers who attended the workshops receive individualized support.\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "Your decision to rely on technological tools had mixed results. While the mobile app proved effective for many campers, some faced challenges in adopting or using the technology. This digital-focused approach left a portion of the camping community without access to crucial waste disposal guidance. The final challenge remains unmet, and the destiny of Ethereal Springs hangs in the balance.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By implementing an incentive-based recognition program, you successfully tapped into the motivation of campers. The allure of rewards, discounts, and exclusive access drove widespread compliance with the 'Pack-In, Pack-Out' policy. The camping site now boasts cleaner surroundings, and campers feel a sense of pride in contributing to the preservation of Ethereal Springs. Your thoughtful approach has secured the success of the environmental initiative.";
+                        } else if (ans == 3) {
+                            cout << "Despite your efforts to offer personalized follow-up and support, the challenge persists. Some campers proved resistant to change, and the resources required for individualized assistance strained the overall effectiveness of the approach. A lingering resistance hinders the complete success of Ethereal Springs' environmental initiative.";
+                        }
+                    } else if (choice == 2) {
+                        cout << "The character, opting for the 'Interactive Mobile Application,' embraces technology as a tool for environmental education. They invest in the development of a cutting-edge mobile application designed to engage campers and promote responsible outdoor practices.\n\n";
+                        cout << "*POSITIVE EFFECT*: The mobile application proves to be a resounding success. Campers eagerly download the app, drawn to its interactive features and real-time notifications. The augmented reality showcases fragile ecosystems, enhancing campers' understanding of the importance of Leave No Trace principles. Compliance with camping regulations and the 'Pack-In, Pack-Out' policy increases as campers become more informed and engaged.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Despite the app's success, some campers face challenges in adopting or using the technology. A portion of the camping community, either due to limited access to smartphones or a preference for traditional information sources, remains unaffected by the app's educational features. This technological gap leads to a divide in the level of awareness and compliance among campers, highlighting the importance of addressing diverse learning preferences within the camping community.\n\n";
+                        cout << "In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Alternative Educational Resources:  Develop and distribute alternative educational resources that cater to diverse learning preferences within the camping community. This could include printed brochures, pamphlets, and signage at key points within the camping site.\n"
+                                "2. On-Site Workshops and Demonstrations:  Organize on-site workshops and demonstrations conducted by park rangers or knowledgeable volunteers.\n"
+                                "3. Community Engagement Ambassadors:  Appoint community engagement ambassadors within the camping community who can serve as liaisons between tech-savvy and non-tech-savvy campers.";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to organize alternative educational resources, you successfully diversified the learning avenues for campers. Utilizing brochures, websites, and on-site presentations proved to be an effective combination, catering to different learning preferences. The insightful content addressed concerns and provided viable alternatives, fostering a deep understanding of the 'Pack-In, Pack-Out' policy. The camping site now stands as a testament to your comprehensive educational approach, with campers embracing responsible waste disposal practices.";
+                        } else if (ans == 2) {
+                            cout << "Your decision to rely solely on on-site workshops and demonstrations had mixed results. While these interactive sessions were effective for many campers, some faced challenges in attending or fully participating. The on-site approach, while engaging, left a portion of the camping community without direct exposure to the necessary information and solutions. As a result, resistance and conflicts regarding waste disposal practices persist, and the fate of Ethereal Springs remains uncertain.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By choosing to implement community engagement ambassadors, you successfully enlisted the help of experienced campers and local environmental enthusiasts to actively engage with fellow campers. This community-driven initiative proved to be highly effective in fostering a sense of shared responsibility and encouraging responsible camping practices. The ambassadors, through their guidance and activities, created a positive camping environment where the 'Pack-In, Pack-Out' policy is embraced by all. Ethereal Springs now stands as a shining example of community collaboration and environmental stewardship.";
+                        }
+                    } else if (choice == 3) {
+                        cout << "The character, choosing the 'Camper Orientation Upon Arrival,' prioritizes proactive education to ensure all campers are well-informed about responsible outdoor practices. Mandating orientation sessions led by park rangers or designated personnel becomes a crucial element of their strategy.\n\n";
+                        cout << "*POSITIVE EFFECT*: The impact is evident as campers, armed with comprehensive information from the orientation sessions, demonstrate a heightened awareness of Leave No Trace principles and camping regulations. The distribution of printed materials and maps serves as a tangible reference, and the personal touch of the orientation fosters a sense of responsibility among campers. The camping site experiences a positive shift towards informed and conscientious outdoor practices.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Despite the thorough orientation, a minority of campers remains resistant to adopting responsible outdoor practices. Some may overlook the provided information or continue with pre-existing habits. The challenge lies in overcoming this resistance, emphasizing the importance of adherence to the principles outlined during the orientation. The character must navigate ongoing efforts to ensure widespread compliance and address concerns among those who resist the educational initiatives. Balancing the initial inconvenience of resistance with the long-term benefits of an educated camper community becomes a critical aspect of sustaining positive change.\n\n";
+                        cout << "“In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Customized Trail Information App:  Develop a user-friendly mobile application that provides real-time information on trail conditions, closures, and alternative routes. Utilize GPS technology to update campers on the status of trails, ensuring they have accurate information before embarking on their journey.\n"
+                                "2. Dynamic Trail Closure Schedules:  Implement a dynamic trail closure schedule that takes into account user groups, peak seasons, and environmental considerations. Utilize data analytics and historical usage patterns to forecast peak camping seasons and adjust closure schedules accordingly.\n"
+                                "3. Participatory Trail Management:  Establish a participatory trail management system where campers are actively involved in decision-making processes related to trail closures. Conduct regular forums, surveys, or online platforms where campers can provide input on closure schedules, preferred trails, and peak seasons.\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "Your decision to rely on technological tools had mixed results. While the Customized Trail Information App proved effective for many campers, some faced challenges in adopting or using the technology. This digital-focused approach left a portion of the camping community without access to crucial waste disposal guidance. The final challenge remains unmet, and the destiny of Ethereal Springs hangs in the balance.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your innovative implementation of Dynamic Trail Closure Schedules has transformed the camping experience at Ethereal Springs. Campers now enjoy a dynamic and responsive trail management system that considers environmental conditions and ensures the protection of sensitive areas. This approach has significantly reduced ecological impact, as campers are guided towards sustainable routes. Ethereal Springs stands as a testament to the successful integration of technology and environmental conservation.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your commitment to community engagement through Participatory Trail Management has yielded remarkable results. Campers at Ethereal Springs now actively contribute to trail maintenance, waste disposal initiatives, and environmental education. This collaborative approach has created a strong sense of community responsibility, resulting in a cleaner and more sustainable camping environment. The success of Ethereal Springs serves as a beacon for the power of community-driven initiatives in preserving natural landscapes'.";
+                        }
+                    } else {
+                        cout << "Invalid answer.";
+                    }
+                }
+                // TRAIL ROTATION
+                case 3: {
+                    cout << "TRAIL ROTATION AND SITE REST DAYS\n";
+                    cout << "Options:\n";
+                    cout << "1. ROTATIONAL TRAIL CLOSURE SCHEDULE\n"
+                            "Description:  Establish a systematic schedule for the rotation of trail closures and designated rest days for camping sites. Develop a calendar that outlines which trails or camping areas will be closed on specific days or weeks throughout the year. Communicate this schedule well in advance through signage, online platforms, and camping reservations, encouraging campers to plan their trips around the rotational closures. Provide alternative route suggestions for the closed trails.\n"
+                            "CONSEQUENCES:\n"
+                            "*POSITIVE EFFECT*: The structured rotational closure schedule allows for effective land recovery, reducing soil erosion and trail impact. Campers, informed in advance, can plan their trips accordingly, fostering a sense of responsibility and understanding for the need to protect the ecosystem.\n"
+                            "*NEGATIVE EFFECT*: Despite advanced communication, some campers may still be inconvenienced by trail closures. Balancing the closure schedule to accommodate various user groups and peak seasons will be challenging\n";
+                    cout << "2. EDUCATIONAL TRAIL MARKINGS AND ALERT SYSTEM\n"
+                            "Description:  Implement an educational trail marking system to indicate trails or camping areas that are currently open or closed for regeneration. Use color-coded signage, with clear explanations, to convey the status of each trail or camping site. Additionally, develop an alert system through digital platforms, such as a mobile app or website, to provide real-time updates on trail closures and rest days. Campers can access this information before and during their trips.\n"
+                            "CONSEQUENCES:\n"
+                            "*POSTIVE EFFECT*: The educational trail markings and real-time alert system enhance camper awareness, minimizing unexpected inconveniences and encouraging responsible outdoor practices. Campers can make informed decisions, contributing to reduced environmental impact.\n"
+                            "*NEGATIVE EFFECT*: Despite the alert system, some campers may still be unaware or disregard the trail status. Balancing the use of technology with traditional signage for accessibility to all camper demographics is crucial.\n";
+                    cout << "3. VOLUNTARY REST DAY PROGRAM\n"
+                            "Description:  Description:  Introduce a voluntary rest day program where campers can choose to participate in designated rest days for specific trails or camping areas. Promote the program through camping websites, social media, and on-site signage, encouraging campers to voluntarily refrain from using certain trails on specified days. Provide information on the ecological benefits of participating in the program.\n"
+                            "CONSEQUENCES:\n"
+                            "*POSITIVE EFFECT*: The voluntary rest day program fosters a sense of community responsibility, allowing campers to actively contribute to the preservation of the ecosystem. Campers who voluntarily participate demonstrate a commitment to sustainable outdoor practices, positively influencing \n"
+                            "*NEGATIVE EFFECT*: The success of the program relies on voluntary participation, and not all campers may choose to take part. Some may prioritize their own schedule over the ecological benefits, and balancing voluntary participation with the need for enforced closures is essential.\n\n";
+                    cout << ">> Enter choice: ";
+                    cin >> choice;
+                    if (choice == 1) {
+                        cout << "The character, embracing a forward-thinking approach, implements a structured rotational closure schedule to combat soil erosion and trail impact. Proactively engaging with local authorities, they roll out this innovative plan, aiming to strike a balance between allowing recreational enjoyment and ensuring the preservation of fragile ecosystems.\n\n";
+                        cout << "*POSITIVE EFFECT*: The impact is substantial as the rotational closure schedule effectively allows the land to recover, minimizing soil erosion and trail impact. Campers, well-informed in advance, adapt their plans, showcasing a commendable understanding of the need to protect the environment. The ecosystem undergoes a positive regeneration process, with closed trails experiencing revitalization during designated rest days.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Despite advanced communication, some campers experience inconvenience due to trail closures. Balancing the closure schedule to accommodate various user groups and peak seasons proves challenging. The character faces the delicate task of managing expectations and addressing concerns, navigating the fine line between environmental preservation and camper satisfaction. It becomes crucial to strike a harmonious balance that ensures both the health of the trails and the satisfaction of the camping community.\n\n";
+                        cout << "In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Dynamic Trail Scheduling System:  Implement a dynamic trail scheduling system that adjusts closure periods based on real-time data, usage patterns, and environmental conditions. Utilize technology such as trail counters, weather sensors, and user feedback to monitor trail usage and assess ecological health.\n"
+                                "2. Alternate Trail Routes and Themed Closures:  Introduce alternate trail routes and implement themed closures during specific seasons or ecological events. Designate certain trails for closure during peak seasons, allowing others to remain open.\n"
+                                "3. Community Involvement and Feedback Loop:  Establish a community involvement initiative that includes camper feedback in the trail closure decision-making process. Conduct regular surveys, town hall meetings, or online forums to gather input from the camping community regarding trail usage preferences, peak times, and closure concerns.\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your innovative choice of implementing a Dynamic Trail Scheduling System has revolutionized the camping experience at Ethereal Springs. By dynamically managing trail usage, you successfully minimized overcrowding, ensuring a more enjoyable and sustainable outdoor experience for all campers. The efficient use of technology resulted in smoother trail flow, reducing environmental impact and conflicts. Ethereal Springs now stands as a shining example of how thoughtful trail scheduling can enhance the overall camping adventure.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance in introducing Alternate Trail Routes and Themed Closures has transformed Ethereal Springs into a dynamic and engaging camping destination. By diversifying the trail experience and implementing themed closures, you successfully mitigated environmental impact while providing campers with exciting and educational opportunities. The themed closures not only protected sensitive areas but also created a sense of adventure and discovery. Ethereal Springs now boasts a well-balanced trail system that captivates campers and preserves the natural beauty of the camping site.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your wise choice to prioritize Community Involvement and Feedback Loop has transformed Ethereal Springs into a thriving and inclusive camping community. By actively engaging campers in decision-making processes and valuing their feedback, you successfully created a sense of shared responsibility and ownership. The collaborative efforts have not only enhanced waste disposal practices but also fostered a strong sense of community spirit. Ethereal Springs stands as a shining example of how collective input and involvement can lead to a sustainable and harmonious camping environment.";
+                        }
+                    } else if (choice == 2) {
+                        cout << "The character, championing the implementation of an Educational Trail Markings and Alert System, introduces a visionary strategy to minimize the environmental impact of soil erosion and trail impact. By adopting a forward-thinking approach, they seek to enhance camper awareness and responsible outdoor practices through the use of innovative technology and educational trail markings.\n\n";
+                        cout << "*POSITIVE EFFECT*: The introduction of the Educational Trail Markings and Alert System proves to be a game-changer. Campers quickly adapt to the color-coded signage and real-time alerts, appreciating the transparency in trail status information. This technological integration significantly reduces unexpected inconveniences, as campers make informed decisions based on the dynamic trail status. The camping site undergoes positive transformation, with a more educated and environmentally conscious camper community.\n\n";
+                        cout << "*NEGATIVE EFFECT*: However, not all campers seamlessly embrace the new system. Some individuals, perhaps less tech-savvy or without access to digital platforms, may remain unaware of the trail status or choose to disregard it. The character faces the challenge of striking a balance between technological innovation and traditional signage to ensure accessibility for all camper demographics. Efforts are needed to address the potential resistance and bridge the gap between the tech-dependent and tech-independent camping communities. Balancing the reliance on technology with traditional markers becomes a crucial aspect of navigating this strategy for soil erosion and trail impact management.\n\n";
+                        cout << "In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Dual Communication Strategy:  Implement a dual communication strategy that combines technological innovation with traditional signage. Develop a user-friendly mobile app or website providing real-time trail status updates for tech-savvy campers.\n"
+                                "2. Interactive Workshops and Demonstrations:  Organize interactive workshops and demonstrations at the camping site to educate campers on the use of the technological trail status system. Engage with campers face-to-face, providing hands-on training and support for those less familiar with technology\n"
+                                "3. Community Ambassadors Program: Establish a Community Ambassadors Program, recruiting experienced campers or local enthusiasts to serve as ambassadors. These ambassadors will act as on-site guides, helping campers navigate the technological trail status system and interpret traditional signage.";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By implementing a dual communication strategy, combining clear signage with interactive workshops and demonstrations, you successfully reached campers through both visual cues and engaging hands-on experiences. This comprehensive approach heightened awareness and understanding, leading to widespread compliance with the 'Pack-In, Pack-Out' policy. Ethereal Springs now stands as a beacon of responsible camping, with campers fully embracing the principles of sustainable outdoor recreation.";
+                        } else if (ans == 2) {
+                            cout << " Unfortunately, the interactive workshops and demonstrations had mixed results. While some campers enthusiastically embraced the hands-on learning, others found them time-consuming or irrelevant to their camping experience. The success of the initiative is compromised, and the fate of Ethereal Springs hangs in the balance.";
+                        } else if (ans == 3) {
+                            cout << "***CONGRATULATIONS!*** Your strategic brilliance has shone brightly in the final challenge. By establishing a Community Ambassadors Program, you empowered dedicated individuals to spread the message of responsible camping. These ambassadors successfully engaged with fellow campers, organized clean-up events, and fostered a sense of community responsibility. The program's positive influence led to widespread compliance with the 'Pack-In, Pack-Out' policy, creating a sustainable and harmonious camping environment at Ethereal Springs.";
+                        }
+                    } else if (choice == 3) {
+                        cout << "Embarking on the Voluntary Rest Day Program, the character initiates a unique approach to promote ecological preservation within the camping community. Advocating for the program through various channels, the character encourages campers to voluntarily choose designated rest days for specific trails or camping areas, emphasizing the positive impact on the ecosystem.\n\n";
+                        cout << "*POSITIVE EFFECT*: The voluntary rest day program gains momentum as environmentally conscious campers enthusiastically embrace the initiative. A sense of community responsibility flourishes, with campers actively contributing to the preservation of the ecosystem. Participation becomes a badge of honor, fostering a collective commitment to sustainable outdoor practices. The camping site experiences a positive transformation, reflecting the dedication of campers to the well-being of the environment.\n\n";
+                        cout << "*NEGATIVE EFFECT*: Despite the character's best efforts, not all campers choose to participate in the voluntary rest day program. Some prioritize personal schedules over ecological benefits, revealing a diversity in the commitment levels of the camping community. The success of the program relies heavily on voluntary participation, and the character faces the challenge of balancing the desire for active engagement with the need for enforced closures to ensure the preservation of the trails and camping areas. Striking this delicate balance becomes a critical aspect of navigating the ecological challenges within the camping game.\n\n";
+                        cout << "“In  response to the negative effects of this option.\n\n";
+                        cout << "How will you proceed?\n";
+                        cout << "1. Incentive-Based Participation Program:  Introduce an incentive-based participation program to encourage campers to voluntarily partake in the rest day program. Offer rewards such as exclusive access to certain camping zones, discounts on future reservations, or recognition as eco-champions.\n"
+                                "2. DRotational Closure Schedule:  Implement a rotational closure schedule for camping zones and trails. Designate specific days or periods where certain areas are closed, ensuring a fair distribution of closures across the camping site.\n"
+                                "3. Community Engagement Events:  Organize community engagement events centered around the ecological benefits of the rest day program. Host workshops, seminars, and interactive activities that emphasize the positive impact of rest days on trail and camping area preservation.\n";
+                        cout << ">> Enter answer: ";
+                        cin >> ans;
+                        if (ans == 1) {
+                            cout << "***CONGRATULATIONS!*** Your innovative approach of introducing an incentive-based participation program has worked wonders for Ethereal Springs. Campers were thrilled by the prospect of earning rewards for responsible waste disposal. As a result, the camping site is now cleaner, and the sense of competition among campers has created a positive atmosphere. The success of the program is evident, with increased compliance and a notable reduction in conflicts with enforcement authorities. Your strategic decision has not only preserved the environment but also fostered a community that values and actively contributes to the well-being of Ethereal Springs.";
+                        } else if (ans == 2) {
+                            cout << "***CONGRATULATIONS!***  Your strategic implementation of a rotational closure schedule has proven to be a game-changer for Ethereal Springs. By periodically closing certain camping areas, you've allowed the environment to recover and rejuvenate. This innovative approach has not only minimized the impact of camping activities on the ecosystem but has also garnered appreciation from campers who now witness the positive changes in the environment. The rotational closure schedule has struck a balance between preserving the natural beauty of Ethereal Springs and providing a sustainable camping experience.";
+                        } else if (ans == 3) {
+                            cout << "Unfortunately, the community engagement events faced challenges in sustaining long-term interest and participation. While initial events garnered enthusiasm, the momentum dwindled over time, and a portion of the camping community returned to indifferent or resistant behavior. The destiny of Ethereal Springs remains uncertain, as the desired shift in camper attitudes and practices did not reach the level needed for lasting environmental impact.";
+                        }
+                    } else {
+                        cout << "Invalid answer.";
+                    }
+                }
             }
         }
         case 2: {
@@ -306,6 +470,9 @@ void FCM(const string& mapName) {
                         cout << "In  response to the negative effects of this option.\n\n";
                         cout << "How will you proceed?\n";
                         cout << "1. Comprehensive Education Campaign:  Launch an extensive education campaign to inform campers about the reasons behind the 'Pack-In, Pack-Out' policy and its long-term environmental benefits.\n\n"
+                                "Articles:\n"
+                                "1. https://nobodytrashestennessee.com/pack-in-pack-out-and-leave-no-trace-to-prevent-outdoor-litter/#:~:text=Packing%20in%20and%20packing%20out,unnecessary%20items%20or%20waste%20behind.\n"
+                                "2. https://www.pcta.org/discover-the-trail/backcountry-basics/leave-no-trace/pack-it-in-pack-it-out/\n\n"
                                 "2. Distribution of Portable Waste Solutions:  Provide campers with accessible and affordable portable waste disposal solutions, such as biodegradable bags or compact waste containers. Distribute these solutions at key entry points or during the reservation process to ensure campers are adequately prepared for the 'Pack-In, Pack-Out' policy.\n\n"
                                 "3. Incentive Program for Compliance:   Implement an incentive program to reward campers who consistently comply with the 'Pack-In, Pack-Out' policy. Incentives could include discounts on future camping reservations, recognition on a leaderboard, or exclusive access to certain camping areas\n\n";
                         cout << ">> Enter answer: ";
@@ -346,6 +513,10 @@ void FCM(const string& mapName) {
                         cout << "How will you proceed?\n";
                         cout << "1. Reward System for Consistent Participation:  Create a point-based system where campers earn points for each clean-up event attended or for demonstrating responsible camping practices. These points can be redeemed for discounts on future camping fees, outdoor gear, or other relevant rewards.\n\n"
                                 "2. Educational Campaigns on Sustainable Camping:  Utilize various communication channels, such as campsite signage, online platforms, and informational materials, to continually reinforce the importance of responsible waste disposal.\n\n"
+                                "Articles:\n"
+                                "\t1. https://www.mattsskipbins.com.au/3-reasons-why-proper-waste-disposal-is-essential/\n"
+                                "\t2. https://ezcleanup.com/importance-of-proper-waste-disposal/\n"
+                                "\t3. https://www.learnz.org.nz/redvale181/bg-standard-f/the-5-r%27s-of-waste-management\n\n"
                                 "3. Camping Site Ambassador Program:  Establish a Camping Site Ambassador Program where experienced and passionate campers volunteer as ambassadors to promote sustainable practices.\n\n";
                         cout << ">> Enter answer: ";
                         cin >> ans;
@@ -369,7 +540,11 @@ void FCM(const string& mapName) {
                             "Description: Implement an extensive educational campaign to inform campers about the importance of Leave No Trace principles. Distribute informational materials, conduct workshops, and utilize digital platforms to educate campers on responsible camping practices. Additionally, increase ranger patrols to monitor and guide campers towards proper waste disposal methods.\n"
                             "CONSEQUENCES:\n"
                             "Positive: An educated and informed camper base is more likely to adhere to Leave No Trace principles, leading to a reduction in environmental impact. Increased ranger presence acts as a deterrent and ensures immediate guidance for those unaware of proper waste disposal methods.\n"
-                            "Negative: Despite educational efforts, some campers may still neglect responsible practices. The effectiveness of ranger patrols depends on the availability of resources and personnel.\n";
+                            "Negative: Despite educational efforts, some campers may still neglect responsible practices. The effectiveness of ranger patrols depends on the availability of resources and personnel.\n"
+                            "\nArticles:\n"
+                            "1. Leave No Trace Seven Principles - https://www.nps.gov/articles/leave-no-trace-seven-principles.htm\n"
+                            "Organization:\n"
+                            "1. Leave No Trace Organization - https://lnt.org/\n\n";
                     cout << "2. IMPLEMENT FINES FOR NON-COMPLIANCE\n"
                             "Description: Enforce a system of fines for campers who fail to comply with Leave No Trace principles, specifically related to improper waste disposal. Clearly communicate the fines through signage and educational materials, and assign responsibility to park rangers for monitoring and issuing fines when necessary.\n"
                             "CONSEQUENCES:\n"
@@ -379,7 +554,8 @@ void FCM(const string& mapName) {
                             "Description: Establish a community volunteer program where experienced campers or local environmental enthusiasts actively engage with and educate fellow campers about Leave No Trace principles. These volunteers can organize regular clean-up events, provide guidance on waste disposal, and foster a sense of community responsibility.\n"
                             "CONSEQUENCES:\n"
                             "Positive: Building a community-driven initiative encourages shared responsibility for the environment, fostering a culture of sustainable camping. Volunteer-led activities can have a positive impact on campers' attitudes towards Leave No Trace principles.\n"
-                            "Negative: The success of the program relies on the availability and willingness of volunteers. Some campers may not respond positively to guidance from fellow campers, and the program's effectiveness may vary depending on community engagement.\n\n";
+                            "Negative: The success of the program relies on the availability and willingness of volunteers. Some campers may not respond positively to guidance from fellow campers, and the program's effectiveness may vary depending on community engagement.\n"
+                            "Online Training and Volunteer Program - https://lnt.org/\n\n";
                     cout << ">> Enter choice: ";
                     cin >> choice;
                     if (choice == 1) {
@@ -478,7 +654,9 @@ void FCM(const string& mapName) {
                             "Description: Organize interactive educational workshops within the camping site, focusing on the importance of proper waste disposal. These workshops can include demonstrations, discussions, and hands-on activities to actively involve campers in learning about and practicing responsible waste management.\n"
                             "CONSEQUENCES:\n"
                             "Positive: Interactive workshops provide a more engaging learning experience, increasing camper understanding of the significance of proper waste disposal. This can lead to improved compliance and a positive impact on the environment.\n"
-                            "Negative: Interactive workshops provide a more engaging learning experience, increasing camper understanding of the significance of proper waste disposal. This can lead to improved compliance and a positive impact on the environment.\n\n";
+                            "Negative: Interactive workshops provide a more engaging learning experience, increasing camper understanding of the significance of proper waste disposal. This can lead to improved compliance and a positive impact on the environment.\n"
+                            "Environmental Education Workshops and Training:\n"
+                            "Workshop Registration and Inquiries - doee.arec@dc.gov\n\n";
                     cout << ">> Enter choice: ";
                     cin >> choice;
                     if (choice == 1) {
@@ -578,7 +756,11 @@ void FCM(const string& mapName) {
                             "Description: Introduce eco-friendly cleaning alternatives and provide them to campers. Biodegradable soaps and detergents are distributed, promoting responsible cleaning practices.\n"
                             "CONSEQUENCES:\n"
                             "Positive: Campers adopt eco-friendly alternatives, leading to a reduction in harmful residues and a potential restoration of microbial balance.\n"
-                            "Negative: Initial resistance from some campers who are accustomed to traditional cleaning products.\n\n";
+                            "Negative: Initial resistance from some campers who are accustomed to traditional cleaning products.\n"
+                            "Articles:\n"
+                            "Cleaning Alternatives:\n"
+                            "1. https://www.healthline.com/health/easy-green-diy-recipes-to-clean-all-the-things-plus-health-benefits\n"
+                            "2. https://www.ahs.com/home-matters/quick-tips/6-eco-friendly-solutions-for-cleaning-home/\n\n";
                     cout << ">> Enter choice: ";
                     cin >> choice;
                 if (choice == 1) {
@@ -682,12 +864,19 @@ void FCM(const string& mapName) {
                             "Description: Introduce reforestation projects to protect vulnerable areas. Planting initiatives are implemented to restore and protect the vegetation.\n"
                             "CONSEQUENCES:\n"
                             "Positive: Reforestation projects contribute to the restoration of the landscape.\n"
-                            "Negative: Resistance from campers and potential conflicts with those who oppose the changes.\n\n";
+                            "Negative: Resistance from campers and potential conflicts with those who oppose the changes.\n"
+                            "Reforestation Projects in the Philippines:\n"
+                            "1. https://www.edenprojects.org/our-work/philippines\n"
+                            "2. https://www.denr.gov.ph/index.php/priority-programs/national-greening-program\n"
+                            "3. https://www.forestfoundation.ph/\n\n";
                     cout << "2. CREATING INFORMATIONAL MATERIALS\n"
                             "Description: Create informational materials to distribute to campers. Flyers and signage are placed around the site to inform visitors about the importance of preserving the natural landscape.\n"
                             "CONSEQUENCES:\n"
                             "Positive: Increased awareness leads to a gradual change in camper behavior, contributing to the restoration of the landscape.\n"
-                            "Negative: Some campers may ignore or disregard the informational materials, and the impact on the environment persists.\n\n";
+                            "Negative: Some campers may ignore or disregard the informational materials, and the impact on the environment persists.\n"
+                            "Infographics Links:\n"
+                            "1. https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fnature-conservation-infographics-template-vector-13823394&psig=AOvVaw3M0AAaDCpwjdfaBCo6V_ol&ust=1704678542105000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNCY98yUyoMDFQAAAAAdAAAAABAD\n"
+                            "2. https://www.google.com/url?sa=i&url=https%3A%2F%2Fvenngage.com%2Ftemplates%2Finfographics%2Flight-yellow-and-green-modern-playful-illustration-environment-infographic-48632258-646e-4ddc-97fa-00cba5b7ce62&psig=AOvVaw3M0AAaDCpwjdfaBCo6V_ol&ust=1704678542105000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNCY98yUyoMDFQAAAAAdAAAAABAI\n\n";
                     cout << "3. COLLABORATING WITH LOCAL AUTHORITIES\n"
                             "Description: Collaborate with local authorities to establish and enforce strict regulations on visitors, waste disposal, and camping practices. The regulations are implemented, and penalties are enforced for violators.\n"
                             "CONSEQUENCES:\n"
@@ -955,6 +1144,12 @@ void MP2() {
                 cin.get(); // Wait for a key press
                 sleep(5);
             }
+        }
+        case 2: {
+            system("CLS");
+            cout << "You chose Option 2: Venture through the overgrown path.\n\n";
+            cout << "Unfortunately, this path was not safe and the player has been eliminated.\n\n";
+            cout << "*** GAME OVER! ***\n";
         }
     }
 }
