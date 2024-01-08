@@ -111,6 +111,7 @@ void Map(){
          << "\t\t3. Siargao Island\n\n";
     }
 void FCM(const string& mapName) {
+    system("CLS");
     cout << "*** FINAL CHALLENGE ***\n\n";
     int ans;
     cout << "You must now choose the final challenge to address and make a lasting environmental change. Here are three options, each representing a critical "
